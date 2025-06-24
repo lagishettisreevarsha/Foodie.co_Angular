@@ -1,0 +1,1005 @@
+{"categories":[
+  { "name": "Veg", "image": "https://i.pinimg.com/736x/7f/e5/dc/7fe5dcb473f5f9597e3525d7a7c48200.jpg" },
+  { "name": "Non-Veg", "image": "https://i.pinimg.com/736x/57/58/8b/57588b32c55b721df9710bfe1093fe1f.jpg" },
+  { "name": "Korean", "image": "https://i.pinimg.com/736x/ea/c2/7b/eac27b99a5d028eb0859c4d900940d97.jpg" },
+  { "name": "Italian", "image": "https://i.pinimg.com/736x/4d/b0/42/4db042da9ee1e39f61b075867bb46e2c.jpg" },
+  { "name": "Chinese", "image": "https://i.pinimg.com/736x/a4/e6/bd/a4e6bd1bb8b2b8a8864d46cc2ce4e44b.jpg" },
+  { "name": "Desserts", "image": "https://i.pinimg.com/736x/79/99/23/79992332a1451a6b66ba223d87344513.jpg" },
+  { "name": "Indian", "image": "https://i.pinimg.com/736x/5f/1a/d0/5f1ad0fa1f186f7040733e5665f93c83.jpg" },
+  { "name": "Thai", "image": "https://i.pinimg.com/736x/38/b8/06/38b80652a6f270122e19e0bfcd91b112.jpg" },
+  { "name": "Snacks", "image": "https://i.pinimg.com/736x/55/ab/8e/55ab8eaae0f703036563473fe4954c6c.jpg" },
+  { "name": "Healthy Bites", "image": "https://i.pinimg.com/736x/fb/51/9a/fb519a7419f44597fe299a46e81dbba8.jpg" },
+  { "name": "Breakfast", "image": "https://i.pinimg.com/736x/2d/82/8f/2d828f21fd6c829f8ee9698e3b7f205b.jpg" },
+  { "name": "Wraps & Rolls", "image": "https://i.pinimg.com/736x/99/9e/dd/999edd0e581494317287103e0560fb85.jpg" },
+  { "name": "Beverages", "image": "https://i.pinimg.com/736x/9f/b1/b4/9fb1b4125a1f1e2dbf93c1adbc949040.jpg" },
+  { "name": "Street Food", "image": "https://i.pinimg.com/736x/33/23/c4/3323c4dc60d03f54f2490d8fa9bb3d62.jpg" },
+  { "name": "Seasonal Picks", "image": "https://i.pinimg.com/736x/c7/a0/74/c7a0740c30f8c7a2ad1090a48debc03e.jpg" }
+],
+"vegies":
+  [
+  {
+    "id": 1,
+    "name": "Lauki Curry",
+    "type": "veg",
+    "ingredients": "Mixed Vegetables, Rice",
+    "cuisine": "Gujarati",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Palak Paneer",
+    "type": "veg",
+    "ingredients": "Paneer, Tomato, Spices",
+    "cuisine": "Maharashtrian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Vegetable Cutlet",
+    "type": "veg",
+    "ingredients": "Spinach, Garlic, Cream",
+    "cuisine": "Karnataka",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Gobi Manchurian",
+    "type": "veg",
+    "ingredients": "Spinach, Garlic, Cream",
+    "cuisine": "South Indian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Kadhi Pakora",
+    "type": "veg",
+    "ingredients": "Spinach, Garlic, Cream",
+    "cuisine": "Maharashtrian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Vegetable Burger",
+    "type": "veg",
+    "ingredients": "Lentils, Garlic, Mustard Seeds",
+    "cuisine": "South Indian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Malai Kofta",
+    "type": "veg",
+    "ingredients": "Spinach, Garlic, Cream",
+    "cuisine": "Bengali",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Vegetable Sandwich",
+    "type": "veg",
+    "ingredients": "Mixed Vegetables, Rice",
+    "cuisine": "Gujarati",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Tawa Sabzi",
+    "type": "veg",
+    "ingredients": "Mixed Vegetables, Rice",
+    "cuisine": "Karnataka",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Bhindi Fry",
+    "type": "veg",
+    "ingredients": "Paneer, Tomato, Spices",
+    "cuisine": "South Indian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Vegetable Korma",
+    "type": "veg",
+    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
+    "cuisine": "Bengali",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Pav Bhaji",
+    "type": "veg",
+    "ingredients": "Cabbage, Carrot, Beans",
+    "cuisine": "Bengali",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Corn Capsicum Masala",
+    "type": "veg",
+    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
+    "cuisine": "Punjabi",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg13.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Bhindi Fry",
+    "type": "veg",
+    "ingredients": "Chickpeas, Onion, Tomato",
+    "cuisine": "Punjabi",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Sambar",
+    "type": "veg",
+    "ingredients": "Lentils, Garlic, Mustard Seeds",
+    "cuisine": "Karnataka",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg15.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Schezwan Fried Rice",
+    "type": "veg",
+    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
+    "cuisine": "Punjabi",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg16.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Paneer Butter Masala",
+    "type": "veg",
+    "ingredients": "Chickpeas, Onion, Tomato",
+    "cuisine": "North Indian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg17.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Baingan Bharta",
+    "type": "veg",
+    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
+    "cuisine": "Rajasthani",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg18.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Vegetable Handi",
+    "type": "veg",
+    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
+    "cuisine": "Indo-Chinese",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg19.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Gobi Manchurian",
+    "type": "veg",
+    "ingredients": "Mixed Vegetables, Rice",
+    "cuisine": "Indo-Chinese",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg20.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Carrot Halwa",
+    "type": "veg",
+    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
+    "cuisine": "Andhra",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg21.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Vegetable Biryani",
+    "type": "veg",
+    "ingredients": "Lentils, Garlic, Mustard Seeds",
+    "cuisine": "Bengali",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg22.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Vegetable Sandwich",
+    "type": "veg",
+    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
+    "cuisine": "Bengali",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg23.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Dhokla",
+    "type": "veg",
+    "ingredients": "Lentils, Garlic, Mustard Seeds",
+    "cuisine": "Karnataka",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg24.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Matar Paneer",
+    "type": "veg",
+    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
+    "cuisine": "Indo-Chinese",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg25.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Lemon Rice",
+    "type": "veg",
+    "ingredients": "Lentils, Garlic, Mustard Seeds",
+    "cuisine": "South Indian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg26.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Corn Capsicum Masala",
+    "type": "veg",
+    "ingredients": "Paneer, Tomato, Spices",
+    "cuisine": "North Indian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg27.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Tomato Rasam",
+    "type": "veg",
+    "ingredients": "Green Peas, Onion, Ghee",
+    "cuisine": "Gujarati",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg28.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Vegetable Pizza",
+    "type": "veg",
+    "ingredients": "Cabbage, Carrot, Beans",
+    "cuisine": "Andhra",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg29.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Chole Bhature",
+    "type": "veg",
+    "ingredients": "Spinach, Garlic, Cream",
+    "cuisine": "Indo-Chinese",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg30.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Tindora Fry",
+    "type": "veg",
+    "ingredients": "Cabbage, Carrot, Beans",
+    "cuisine": "South Indian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg31.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Corn Capsicum Masala",
+    "type": "veg",
+    "ingredients": "Potatoes, Curry Leaves",
+    "cuisine": "Punjabi",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg32.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Dhokla",
+    "type": "veg",
+    "ingredients": "Spinach, Garlic, Cream",
+    "cuisine": "North Indian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg33.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Sprouts Salad",
+    "type": "veg",
+    "ingredients": "Potatoes, Curry Leaves",
+    "cuisine": "North Indian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg34.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Dal Tadka",
+    "type": "veg",
+    "ingredients": "Potatoes, Curry Leaves",
+    "cuisine": "Rajasthani",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg35.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Paneer Tikka",
+    "type": "veg",
+    "ingredients": "Chickpeas, Onion, Tomato",
+    "cuisine": "North Indian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg36.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Vegetable Burger",
+    "type": "veg",
+    "ingredients": "Green Peas, Onion, Ghee",
+    "cuisine": "Rajasthani",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg37.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Mushroom Masala",
+    "type": "veg",
+    "ingredients": "Mixed Vegetables, Rice",
+    "cuisine": "Bengali",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg38.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Khichdi",
+    "type": "veg",
+    "ingredients": "Cabbage, Carrot, Beans",
+    "cuisine": "Rajasthani",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg39.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Pav Bhaji",
+    "type": "veg",
+    "ingredients": "Cabbage, Carrot, Beans",
+    "cuisine": "Indo-Chinese",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg40.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Vegetable Cutlet",
+    "type": "veg",
+    "ingredients": "Cabbage, Carrot, Beans",
+    "cuisine": "North Indian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg41.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Mixed Veg Curry",
+    "type": "veg",
+    "ingredients": "Mixed Vegetables, Rice",
+    "cuisine": "Punjabi",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg42.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Stuffed Paratha",
+    "type": "veg",
+    "ingredients": "Potatoes, Curry Leaves",
+    "cuisine": "South Indian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg43.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Sambar",
+    "type": "veg",
+    "ingredients": "Lentils, Garlic, Mustard Seeds",
+    "cuisine": "Karnataka",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg44.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Sprouts Salad",
+    "type": "veg",
+    "ingredients": "Potatoes, Curry Leaves",
+    "cuisine": "Maharashtrian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg45.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Lauki Curry",
+    "type": "veg",
+    "ingredients": "Mixed Vegetables, Rice",
+    "cuisine": "Rajasthani",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg46.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Poha",
+    "type": "veg",
+    "ingredients": "Spinach, Garlic, Cream",
+    "cuisine": "Punjabi",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg47.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Aloo Paratha",
+    "type": "veg",
+    "ingredients": "Potatoes, Curry Leaves",
+    "cuisine": "Andhra",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg48.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Tawa Sabzi",
+    "type": "veg",
+    "ingredients": "Green Peas, Onion, Ghee",
+    "cuisine": "Karnataka",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg49.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Tamarind Rice",
+    "type": "veg",
+    "ingredients": "Chickpeas, Onion, Tomato",
+    "cuisine": "Rajasthani",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg50.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Cabbage Thoran",
+    "type": "veg",
+    "ingredients": "Lentils, Garlic, Mustard Seeds",
+    "cuisine": "Karnataka",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg51.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Dhokla",
+    "type": "veg",
+    "ingredients": "Chickpeas, Onion, Tomato",
+    "cuisine": "Rajasthani",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg52.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Gobi Manchurian",
+    "type": "veg",
+    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
+    "cuisine": "Gujarati",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg53.jpg"
+  },
+  {
+    "id": 54,
+    "name": "Sambar",
+    "type": "veg",
+    "ingredients": "Spinach, Garlic, Cream",
+    "cuisine": "Punjabi",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg54.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Matar Paneer",
+    "type": "veg",
+    "ingredients": "Lentils, Garlic, Mustard Seeds",
+    "cuisine": "Maharashtrian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg55.jpg"
+  },
+  {
+    "id": 56,
+    "name": "Vangibath",
+    "type": "veg",
+    "ingredients": "Spinach, Garlic, Cream",
+    "cuisine": "Gujarati",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg56.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Vegetable Pakora",
+    "type": "veg",
+    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
+    "cuisine": "Rajasthani",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg57.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Bottle Gourd Kofta",
+    "type": "veg",
+    "ingredients": "Potatoes, Curry Leaves",
+    "cuisine": "Karnataka",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg58.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Tindora Fry",
+    "type": "veg",
+    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
+    "cuisine": "Karnataka",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg59.jpg"
+  },
+  {
+    "id": 60,
+    "name": "Aloo Tikki",
+    "type": "veg",
+    "ingredients": "Potatoes, Curry Leaves",
+    "cuisine": "Maharashtrian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg60.jpg"
+  },
+  {
+    "id": 61,
+    "name": "Moong Dal Chilla",
+    "type": "veg",
+    "ingredients": "Spinach, Garlic, Cream",
+    "cuisine": "Punjabi",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg61.jpg"
+  },
+  {
+    "id": 62,
+    "name": "Paneer Butter Masala",
+    "type": "veg",
+    "ingredients": "Chickpeas, Onion, Tomato",
+    "cuisine": "Punjabi",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg62.jpg"
+  },
+  {
+    "id": 63,
+    "name": "Masala Dosa",
+    "type": "veg",
+    "ingredients": "Spinach, Garlic, Cream",
+    "cuisine": "North Indian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg63.jpg"
+  },
+  {
+    "id": 64,
+    "name": "Dal Tadka",
+    "type": "veg",
+    "ingredients": "Spinach, Garlic, Cream",
+    "cuisine": "Karnataka",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg64.jpg"
+  },
+  {
+    "id": 65,
+    "name": "Veg Kurma",
+    "type": "veg",
+    "ingredients": "Paneer, Tomato, Spices",
+    "cuisine": "South Indian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg65.jpg"
+  },
+  {
+    "id": 66,
+    "name": "Paneer Butter Masala",
+    "type": "veg",
+    "ingredients": "Potatoes, Curry Leaves",
+    "cuisine": "Punjabi",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg66.jpg"
+  },
+  {
+    "id": 67,
+    "name": "Paneer Tikka",
+    "type": "veg",
+    "ingredients": "Mixed Vegetables, Rice",
+    "cuisine": "Rajasthani",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg67.jpg"
+  },
+  {
+    "id": 68,
+    "name": "Cabbage Thoran",
+    "type": "veg",
+    "ingredients": "Lentils, Garlic, Mustard Seeds",
+    "cuisine": "Bengali",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg68.jpg"
+  },
+  {
+    "id": 69,
+    "name": "Gobi Manchurian",
+    "type": "veg",
+    "ingredients": "Paneer, Tomato, Spices",
+    "cuisine": "South Indian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg69.jpg"
+  },
+  {
+    "id": 70,
+    "name": "Khichdi",
+    "type": "veg",
+    "ingredients": "Cabbage, Carrot, Beans",
+    "cuisine": "Maharashtrian",
+    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
+    "image": "https://example.com/images/veg70.jpg"
+  }
+],
+"non_vegies":
+  [
+  {
+    "name": "Beef Biryani",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Biryani",
+    "type": "nonveg"
+  },
+  {
+    "name": "Beef Curry",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Curry",
+    "type": "nonveg"
+  },
+  {
+    "name": "Beef Gravy",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Gravy",
+    "type": "nonveg"
+  },
+  {
+    "name": "Beef Roast",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Roast",
+    "type": "nonveg"
+  },
+  {
+    "name": "Beef Saut\u00e9",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Saut\u00e9",
+    "type": "nonveg"
+  },
+  {
+    "name": "Beef Tikka",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Tikka",
+    "type": "nonveg"
+  },
+  {
+    "name": "Chicken Curry",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Curry",
+    "type": "nonveg"
+  },
+  {
+    "name": "Chicken Fry",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Fry",
+    "type": "nonveg"
+  },
+  {
+    "name": "Chicken Gravy",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Gravy",
+    "type": "nonveg"
+  },
+  {
+    "name": "Chicken Kebab",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Kebab",
+    "type": "nonveg"
+  },
+  {
+    "name": "Chicken Saut\u00e9",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Saut\u00e9",
+    "type": "nonveg"
+  },
+  {
+    "name": "Chicken Stew",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Stew",
+    "type": "nonveg"
+  },
+  {
+    "name": "Chicken Tikka",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Tikka",
+    "type": "nonveg"
+  },
+  {
+    "name": "Crab Curry",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Curry",
+    "type": "nonveg"
+  },
+  {
+    "name": "Crab Fry",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Fry",
+    "type": "nonveg"
+  },
+  {
+    "name": "Crab Gravy",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Gravy",
+    "type": "nonveg"
+  },
+  {
+    "name": "Crab Kebab",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Kebab",
+    "type": "nonveg"
+  },
+  {
+    "name": "Crab Masala",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Masala",
+    "type": "nonveg"
+  },
+  {
+    "name": "Crab Roast",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Roast",
+    "type": "nonveg"
+  },
+  {
+    "name": "Crab Saut\u00e9",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Saut\u00e9",
+    "type": "nonveg"
+  },
+  {
+    "name": "Crab Stew",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Stew",
+    "type": "nonveg"
+  },
+  {
+    "name": "Duck Biryani",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Biryani",
+    "type": "nonveg"
+  },
+  {
+    "name": "Duck Curry",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Curry",
+    "type": "nonveg"
+  },
+  {
+    "name": "Duck Fry",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Fry",
+    "type": "nonveg"
+  },
+  {
+    "name": "Duck Masala",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Masala",
+    "type": "nonveg"
+  },
+  {
+    "name": "Duck Roast",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Roast",
+    "type": "nonveg"
+  },
+  {
+    "name": "Duck Saut\u00e9",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Saut\u00e9",
+    "type": "nonveg"
+  },
+  {
+    "name": "Duck Stew",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Stew",
+    "type": "nonveg"
+  },
+  {
+    "name": "Duck Tikka",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Tikka",
+    "type": "nonveg"
+  },
+  {
+    "name": "Egg Biryani",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Biryani",
+    "type": "nonveg"
+  },
+  {
+    "name": "Egg Curry",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Curry",
+    "type": "nonveg"
+  },
+  {
+    "name": "Egg Fry",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Fry",
+    "type": "nonveg"
+  },
+  {
+    "name": "Egg Gravy",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Gravy",
+    "type": "nonveg"
+  },
+  {
+    "name": "Egg Masala",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Masala",
+    "type": "nonveg"
+  },
+  {
+    "name": "Egg Roast",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Roast",
+    "type": "nonveg"
+  },
+  {
+    "name": "Egg Saut\u00e9",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Saut\u00e9",
+    "type": "nonveg"
+  },
+  {
+    "name": "Egg Stew",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Stew",
+    "type": "nonveg"
+  },
+  {
+    "name": "Fish Biryani",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Biryani",
+    "type": "nonveg"
+  },
+  {
+    "name": "Fish Masala",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Masala",
+    "type": "nonveg"
+  },
+  {
+    "name": "Fish Saut\u00e9",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Saut\u00e9",
+    "type": "nonveg"
+  },
+  {
+    "name": "Fish Stew",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Stew",
+    "type": "nonveg"
+  },
+  {
+    "name": "Fish Tikka",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Tikka",
+    "type": "nonveg"
+  },
+  {
+    "name": "Lamb Biryani",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Lamb+Biryani",
+    "type": "nonveg"
+  },
+  {
+    "name": "Lamb Gravy",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Lamb+Gravy",
+    "type": "nonveg"
+  },
+  {
+    "name": "Lamb Kebab",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Lamb+Kebab",
+    "type": "nonveg"
+  },
+  {
+    "name": "Lamb Saut\u00e9",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Lamb+Saut\u00e9",
+    "type": "nonveg"
+  },
+  {
+    "name": "Lamb Stew",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Lamb+Stew",
+    "type": "nonveg"
+  },
+  {
+    "name": "Mutton Biryani",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Biryani",
+    "type": "nonveg"
+  },
+  {
+    "name": "Mutton Curry",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Curry",
+    "type": "nonveg"
+  },
+  {
+    "name": "Mutton Fry",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Fry",
+    "type": "nonveg"
+  },
+  {
+    "name": "Mutton Gravy",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Gravy",
+    "type": "nonveg"
+  },
+  {
+    "name": "Mutton Roast",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Roast",
+    "type": "nonveg"
+  },
+  {
+    "name": "Mutton Stew",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Stew",
+    "type": "nonveg"
+  },
+  {
+    "name": "Mutton Tikka",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Tikka",
+    "type": "nonveg"
+  },
+  {
+    "name": "Prawns Biryani",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Biryani",
+    "type": "nonveg"
+  },
+  {
+    "name": "Prawns Curry",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Curry",
+    "type": "nonveg"
+  },
+  {
+    "name": "Prawns Fry",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Fry",
+    "type": "nonveg"
+  },
+  {
+    "name": "Prawns Gravy",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Gravy",
+    "type": "nonveg"
+  },
+  {
+    "name": "Prawns Kebab",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Kebab",
+    "type": "nonveg"
+  },
+  {
+    "name": "Prawns Masala",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Masala",
+    "type": "nonveg"
+  },
+  {
+    "name": "Prawns Roast",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Roast",
+    "type": "nonveg"
+  },
+  {
+    "name": "Prawns Saut\u00e9",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Saut\u00e9",
+    "type": "nonveg"
+  },
+  {
+    "name": "Prawns Stew",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Stew",
+    "type": "nonveg"
+  },
+  {
+    "name": "Prawns Tikka",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Tikka",
+    "type": "nonveg"
+  },
+  {
+    "name": "Turkey Curry",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Turkey+Curry",
+    "type": "nonveg"
+  },
+  {
+    "name": "Turkey Fry",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Turkey+Fry",
+    "type": "nonveg"
+  },
+  {
+    "name": "Turkey Masala",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Turkey+Masala",
+    "type": "nonveg"
+  },
+  {
+    "name": "Turkey Roast",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Turkey+Roast",
+    "type": "nonveg"
+  },
+  {
+    "name": "Turkey Saut\u00e9",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Turkey+Saut\u00e9",
+    "type": "nonveg"
+  },
+  {
+    "name": "Turkey Tikka",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Turkey+Tikka",
+    "type": "nonveg"
+  }
+]
+
+}

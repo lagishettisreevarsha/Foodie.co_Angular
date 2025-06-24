@@ -1,0 +1,7 @@
+<h1>Choose Your Favorite Category</h1>
+<section>
+  <article *ngFor="let category of categories" (click)="goToCategory(category.name)">
+    <img [src]="category.image" alt="{{ category.name }}" />
+    <h3>{{ category.name }}</h3>
+  </article>
+</section>

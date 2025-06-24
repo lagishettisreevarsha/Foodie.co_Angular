@@ -1,0 +1,47 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+article {
+  width: 220px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+article:hover {
+  transform: scale(1.05);
+}
+
+article img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+article h3 {
+  font-weight: bold;
+  padding: 15px 10px;
+  margin: 0;
+  font-size: 18px;
+}
+
+article::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 4px;
+  background-color: orange;
+  border-radius: 5px;
+  margin: 0 auto 10px;
+}

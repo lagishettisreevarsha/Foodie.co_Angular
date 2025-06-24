@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 26px;
+  margin-top: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+input {
+  display: block;
+  margin: 15px auto;
+  padding: 10px 12px;
+  width: 260px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #999;
+  background-color: #fff;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 22px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #e8e8e8;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #dcdcdc;
+  transform: scale(1.02);
+}
+
+p {
+  text-align: center;
+  font-weight: 500;
+  color: #444;
+  margin-top: 10px;
+  font-size: 14px;
+}

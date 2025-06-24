@@ -1,0 +1,39 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 20px;
+}
+
+article {
+  width: 280px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+article:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  display: block;
+}
+
+h3 {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px;
+  margin: 0;
+  color: #222;
+  border-bottom: 3px dotted orange;
+}

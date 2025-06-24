@@ -1,0 +1,7 @@
+<h1>Register Form</h1>
+<input [(ngModel)]="regName" type="text" placeholder="Your Name" style="font-weight: bold; text-align: center;">
+<input [(ngModel)]="regEmail" type="text" placeholder="Your Mail-Id" style="font-weight: bold; text-align: center;">
+<input [(ngModel)]="regPass" type="text" placeholder="Your PassWord" style="font-weight: bold; text-align: center;">
+<button (click)="isClickedReg()">Submit</button>
+<p>Already have an account?</p>
+<p style="font-weight: bold; color: red;">{{mesg}}</p>

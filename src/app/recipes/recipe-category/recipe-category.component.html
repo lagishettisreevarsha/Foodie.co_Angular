@@ -1,0 +1,9 @@
+<h1 class="text-success text-center mt-3">🌿 Vegetarian Dishes</h1>
+
+<section>
+  <article *ngFor="let dish of dishes" (click)="goToDish(dish.name)">
+    <img [src]="dish.image" alt="{{ dish.name }}" />
+    <h3>{{ dish.name }}</h3>
+  </article>
+</section>
+
