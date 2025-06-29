@@ -5,7 +5,8 @@ import { RegisterComponent } from './auth/register/register.component';
 import { RecipeCategoryComponent } from './recipes/recipe-category/recipe-category.component';
 
 export const routes: Routes = [
-    {path:'',component:RegisterComponent},
+    { path: '', redirectTo: 'login', pathMatch: 'full' },
+    {path:'register',component:RegisterComponent},
     {path:'login',component:LoginComponent},
     {path:'home',component:RecipeListComponent},
     {path:'category/:type',component:RecipeCategoryComponent}

@@ -1,7 +1,26 @@
-<h1>Choose Your Favorite Category</h1>
-<section>
-  <article *ngFor="let category of categories" (click)="goToCategory(category.name)">
-    <img [src]="category.image" alt="{{ category.name }}" />
-    <h3>{{ category.name }}</h3>
-  </article>
-</section>
+<div class="category-page">
+  <h1>Choose Your Favorite Category</h1>
+  <div class="header-actions">
+  <button class="notif-btn" (click)="openNotifications()">
+    🔔
+  </button>
+  <button class="fav-btn" (click)="openFavourites()">
+    ❤️
+  </button>
+  <button class="profile-icon" (click)="profileClicked()">
+    <img src="https://i.pinimg.com/736x/6d/cc/b4/6dccb4fdae38b440994695832c0e139c.jpg">
+  </button>
+</div>
+
+ <p class="profile-name" *ngIf="isClicked">varsha</p>
+  <div class="category-cards">
+    <div
+      class="category-card frosted-card"
+      *ngFor="let category of categories"
+      (click)="goToCategory(category.name)"
+    >
+      <img [src]="category.image" alt="{{ category.name }}"class="imgf" />
+      <h3>{{ category.name }}</h3>
+    </div>
+  </div>
+</div>

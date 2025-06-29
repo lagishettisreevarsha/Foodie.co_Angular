@@ -1,1 +1,315 @@
-/* You can add global styles to this file, and also import other style files */
+/* === GLOBAL === */
+body:has(#bgVideo) {
+  background: none;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+ font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+  background: url('https://i.pinimg.com/736x/aa/97/8a/aa978a0c3c399d9191fb18b4a1017dce.jpg');
+  background-size: cover;
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+p, a, li, span {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  letter-spacing: 0.2px;
+  line-height: 1.5;
+}
+
+#bgVideo {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* === AUTH WRAPPERS === */
+.login-wrapper,
+.register-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* === AUTH BOX === */
+.auth-box {
+  background: url('https://i.pinimg.com/736x/a5/2b/bf/a52bbfb2ff74575fc8a08c6bf4d96c73.jpg');
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 40px 30px;
+  width: 320px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+
+.auth-box h1 {
+  margin-bottom: 20px;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+}
+
+.auth-box input::placeholder {
+  color: #f1b17c;
+  text-align: center;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #ff8000, #ff5500);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.auth-box button:hover {
+  transform: translateY(-2px);
+}
+
+.auth-box a {
+  color: #ff8000;
+  text-decoration: none;
+}
+
+.auth-box a:hover {
+  text-decoration: underline;
+}
+
+.auth-box .error {
+  color: #ff8080;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.auth-box hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* === HEADINGS === */
+h1.text-success,
+.category-page h1 {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 2rem;
+  color: #ff8000;
+}
+
+/* === GRID SECTIONS === */
+/* For dishes list */
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  padding: 40px;
+}
+
+/* For category cards */
+.category-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  padding: 40px;
+}
+
+.category-card {
+  flex: 1 1 250px;
+  max-width: 300px; /* limit so it doesn’t stretch too much */
+}
+
+
+/* === CARDS (DISHES + CATEGORY) === */
+/* === Cards: lighter frosted glass with warm accent === */
+
+.frosted-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.1); /* light glass */
+  backdrop-filter: blur(20px);
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid rgba(255, 128, 0, 0.3); /* subtle border */
+  box-shadow: none; /* no big shadow by default */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+}
+
+.frosted-card:hover {
+  transform: translateY(-6px);
+  border: 1px solid #ff8000; /* stronger orange border on hover */
+  box-shadow: 
+    0 12px 32px rgba(0, 0, 0, 0.25),  /* depth */
+    0 0 20px rgba(255, 128, 0, 0.4);  /* warm glow */
+}
+
+.frosted-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+
+.frosted-card h3 {
+  text-align: center;
+  margin: 12px;
+  color: #fff; /* or #fefefe for softer white */
+}
+
+section article img,
+.category-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.category-card img {
+  height: 120px;
+}
+
+section article h3,
+.category-card h3 {
+  text-align: center;
+  margin: 12px;
+  color: #da682b;
+}
+
+/* === Profile Icon Button === */
+.profile-icon {
+  position: absolute;         /* floats top-right inside parent */
+  top: 10px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+.profile-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ff8000;   /* warm orange border */
+  box-shadow: 0 0 8px rgba(255, 128, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-icon:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(255, 128, 0, 0.6);
+}
+/* === Profile Name with Slide-Fade Animation === */
+.profile-name {
+  position: absolute;
+  top: 50px; /* position below the icon */
+  right: 20px;
+  background: rgba(255, 132, 0, 0.1); /* frosted glass look */
+  backdrop-filter: blur(10px);
+  padding: 8px 16px;
+  border-radius: 12px;
+  color: #ff6f00; /* warm orange */
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 4px 12px rgba(255, 137, 40, 0.25);
+  white-space: nowrap;
+
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: slideFade 0.3s forwards;
+}
+
+.profile-name::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  right: 20px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent transparent rgba(255, 255, 255, 0.1) transparent;
+}
+
+@keyframes slideFade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+h1, h2 {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400; /* Only weight available */
+  font-size: 3rem; /* Make it pop */
+  letter-spacing: 1px;
+  color: #ff8000; /* Your warm theme color */
+
+  /* Fake bold: outline + shadows */
+  -webkit-text-stroke: 0.5px #ff8000; 
+  text-shadow:
+    1px 0 0 #ff8000,
+   -1px 0 0 #ff8000,
+    0 1px 0 #ff8000,
+    0 -1px 0 #ff8000;
+}
+.category-card h3,
+section article h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400; /* Light, clean */
+  color: #ff8000;
+  letter-spacing: 0.5px;
+  text-transform: capitalize; /* Makes first letter uppercase for each word */
+}
+.header-actions {
+  position: absolute; /* or fixed, if you want sticky */
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  z-index: 10; /* make sure it's above other stuff */
+}
+.notif-btn,
+.fav-btn {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #ff8000; /* your theme orange */
+  transition: transform 0.2s ease;
+}
+.notif-btn:hover,
+.fav-btn:hover {
+  transform: scale(1.2);
+}

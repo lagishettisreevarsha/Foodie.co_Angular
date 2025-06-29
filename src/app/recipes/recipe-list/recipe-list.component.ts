@@ -26,5 +26,14 @@ constructor(private router : Router,private http:HttpClient){}
 goToCategory(type:string){
    this.router.navigate(['category',type])
 }
+isClicked=false
+profileClicked(){
+  this.isClicked=!this.isClicked
+}
+openFavourites(){
 
+}
+openNotifications(){
+  
+}
 }

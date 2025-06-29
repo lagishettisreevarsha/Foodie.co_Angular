@@ -1,1005 +1,1631 @@
-{"categories":[
-  { "name": "Veg", "image": "https://i.pinimg.com/736x/7f/e5/dc/7fe5dcb473f5f9597e3525d7a7c48200.jpg" },
-  { "name": "Non-Veg", "image": "https://i.pinimg.com/736x/57/58/8b/57588b32c55b721df9710bfe1093fe1f.jpg" },
-  { "name": "Korean", "image": "https://i.pinimg.com/736x/ea/c2/7b/eac27b99a5d028eb0859c4d900940d97.jpg" },
-  { "name": "Italian", "image": "https://i.pinimg.com/736x/4d/b0/42/4db042da9ee1e39f61b075867bb46e2c.jpg" },
-  { "name": "Chinese", "image": "https://i.pinimg.com/736x/a4/e6/bd/a4e6bd1bb8b2b8a8864d46cc2ce4e44b.jpg" },
-  { "name": "Desserts", "image": "https://i.pinimg.com/736x/79/99/23/79992332a1451a6b66ba223d87344513.jpg" },
-  { "name": "Indian", "image": "https://i.pinimg.com/736x/5f/1a/d0/5f1ad0fa1f186f7040733e5665f93c83.jpg" },
-  { "name": "Thai", "image": "https://i.pinimg.com/736x/38/b8/06/38b80652a6f270122e19e0bfcd91b112.jpg" },
-  { "name": "Snacks", "image": "https://i.pinimg.com/736x/55/ab/8e/55ab8eaae0f703036563473fe4954c6c.jpg" },
-  { "name": "Healthy Bites", "image": "https://i.pinimg.com/736x/fb/51/9a/fb519a7419f44597fe299a46e81dbba8.jpg" },
-  { "name": "Breakfast", "image": "https://i.pinimg.com/736x/2d/82/8f/2d828f21fd6c829f8ee9698e3b7f205b.jpg" },
-  { "name": "Wraps & Rolls", "image": "https://i.pinimg.com/736x/99/9e/dd/999edd0e581494317287103e0560fb85.jpg" },
-  { "name": "Beverages", "image": "https://i.pinimg.com/736x/9f/b1/b4/9fb1b4125a1f1e2dbf93c1adbc949040.jpg" },
-  { "name": "Street Food", "image": "https://i.pinimg.com/736x/33/23/c4/3323c4dc60d03f54f2490d8fa9bb3d62.jpg" },
-  { "name": "Seasonal Picks", "image": "https://i.pinimg.com/736x/c7/a0/74/c7a0740c30f8c7a2ad1090a48debc03e.jpg" }
+{
+    "categories": [
+    { "name": "vegies", "image": "https://i.pinimg.com/736x/7f/e5/dc/7fe5dcb473f5f9597e3525d7a7c48200.jpg" },
+    { "name": "non_vegies", "image": "https://i.pinimg.com/736x/57/58/8b/57588b32c55b721df9710bfe1093fe1f.jpg" },
+    { "name": "korean", "image": "https://i.pinimg.com/736x/ea/c2/7b/eac27b99a5d028eb0859c4d900940d97.jpg" },
+    { "name": "italian", "image": "https://i.pinimg.com/736x/4d/b0/42/4db042da9ee1e39f61b075867bb46e2c.jpg" },
+    { "name": "chinese", "image": "https://i.pinimg.com/736x/a4/e6/bd/a4e6bd1bb8b2b8a8864d46cc2ce4e44b.jpg" },
+    { "name": "desserts", "image": "https://i.pinimg.com/736x/79/99/23/79992332a1451a6b66ba223d87344513.jpg" },
+    { "name": "indian", "image": "https://i.pinimg.com/736x/5f/1a/d0/5f1ad0fa1f186f7040733e5665f93c83.jpg" },
+    { "name": "thai", "image": "https://i.pinimg.com/736x/38/b8/06/38b80652a6f270122e19e0bfcd91b112.jpg" },
+    { "name": "snacks", "image": "https://i.pinimg.com/736x/55/ab/8e/55ab8eaae0f703036563473fe4954c6c.jpg" },
+    { "name": "healthy_bites", "image": "https://i.pinimg.com/736x/fb/51/9a/fb519a7419f44597fe299a46e81dbba8.jpg" },
+    { "name": "breakfast", "image": "https://i.pinimg.com/736x/2d/82/8f/2d828f21fd6c829f8ee9698e3b7f205b.jpg" },
+    { "name": "wraps_and_rolls", "image": "https://i.pinimg.com/736x/99/9e/dd/999edd0e581494317287103e0560fb85.jpg" },
+    { "name": "beverages", "image": "https://i.pinimg.com/736x/9f/b1/b4/9fb1b4125a1f1e2dbf93c1adbc949040.jpg" },
+    { "name": "street_food", "image": "https://i.pinimg.com/736x/33/23/c4/3323c4dc60d03f54f2490d8fa9bb3d62.jpg" },
+    { "name": "seasonal_picks", "image": "https://i.pinimg.com/736x/c7/a0/74/c7a0740c30f8c7a2ad1090a48debc03e.jpg" }
+  ],
+"vegies": [
+  { "name": "palak_paneer", "image": "https://source.unsplash.com/400x300/?palak-paneer" },
+  { "name": "aloo_gobi", "image": "https://source.unsplash.com/400x300/?aloo-gobi" },
+  { "name": "bhindi_masala", "image": "https://source.unsplash.com/400x300/?bhindi" },
+  { "name": "chana_masala", "image": "https://source.unsplash.com/400x300/?chana" },
+  { "name": "baingan_bharta", "image": "https://source.unsplash.com/400x300/?baingan" },
+  { "name": "rajma", "image": "https://source.unsplash.com/400x300/?rajma" },
+  { "name": "matar_paneer", "image": "https://source.unsplash.com/400x300/?matar-paneer" },
+  { "name": "paneer_tikka", "image": "https://source.unsplash.com/400x300/?paneer-tikka" },
+  { "name": "veg_pulao", "image": "https://source.unsplash.com/400x300/?veg-pulao" },
+  { "name": "veg_biryani", "image": "https://source.unsplash.com/400x300/?veg-biryani" },
+  { "name": "dal_makhani", "image": "https://source.unsplash.com/400x300/?dal-makhani" },
+  { "name": "kadai_paneer", "image": "https://source.unsplash.com/400x300/?kadai-paneer" },
+  { "name": "methi_malai_matar", "image": "https://source.unsplash.com/400x300/?methi" },
+  { "name": "navratan_korma", "image": "https://source.unsplash.com/400x300/?navratan-korma" },
+  { "name": "jeera_aloo", "image": "https://source.unsplash.com/400x300/?jeera-aloo" },
+  { "name": "veg_kofta", "image": "https://source.unsplash.com/400x300/?veg-kofta" },
+  { "name": "stuffed_capsicum", "image": "https://source.unsplash.com/400x300/?stuffed-capsicum" },
+  { "name": "dum_aloo", "image": "https://source.unsplash.com/400x300/?dum-aloo" },
+  { "name": "lauki_kofta", "image": "https://source.unsplash.com/400x300/?lauki-kofta" },
+  { "name": "paneer_bhurji", "image": "https://source.unsplash.com/400x300/?paneer-bhurji" },
+  { "name": "dal_fry", "image": "https://source.unsplash.com/400x300/?dal-fry" },
+  { "name": "sambar", "image": "https://source.unsplash.com/400x300/?sambar" },
+  { "name": "cabbage_sabzi", "image": "https://source.unsplash.com/400x300/?cabbage" },
+  { "name": "tinda_masala", "image": "https://source.unsplash.com/400x300/?tinda" },
+  { "name": "drumstick_curry", "image": "https://source.unsplash.com/400x300/?drumstick-curry" },
+  { "name": "mix_veg_sabzi", "image": "https://source.unsplash.com/400x300/?mix-veg" },
+  { "name": "bhindi_fry", "image": "https://source.unsplash.com/400x300/?bhindi-fry" },
+  { "name": "veg_handi", "image": "https://source.unsplash.com/400x300/?veg-handi" },
+  { "name": "paneer_pasanda", "image": "https://source.unsplash.com/400x300/?paneer-pasanda" },
+  { "name": "corn_palak", "image": "https://source.unsplash.com/400x300/?corn-palak" },
+  { "name": "karela_sabzi", "image": "https://source.unsplash.com/400x300/?karela" },
+  { "name": "mushroom_masala", "image": "https://source.unsplash.com/400x300/?mushroom-masala" },
+  { "name": "tofu_curry", "image": "https://source.unsplash.com/400x300/?tofu-curry" },
+  { "name": "sprouts_curry", "image": "https://source.unsplash.com/400x300/?sprouts" },
+  { "name": "vegetable_stew", "image": "https://source.unsplash.com/400x300/?vegetable-stew" },
+  { "name": "soya_chaap", "image": "https://source.unsplash.com/400x300/?soya-chaap" },
+  { "name": "jackfruit_curry", "image": "https://source.unsplash.com/400x300/?jackfruit-curry" },
+  { "name": "beetroot_sabzi", "image": "https://source.unsplash.com/400x300/?beetroot" },
+  { "name": "carrot_peas", "image": "https://source.unsplash.com/400x300/?carrot-peas" },
+  { "name": "paneer_lababdar", "image": "https://source.unsplash.com/400x300/?paneer-lababdar" },
+  { "name": "tamatar_sabzi", "image": "https://source.unsplash.com/400x300/?tomato-curry" },
+  { "name": "chole", "image": "https://source.unsplash.com/400x300/?chole" },
+  { "name": "veg_manchurian", "image": "https://source.unsplash.com/400x300/?veg-manchurian" },
+  { "name": "paneer_chilli", "image": "https://source.unsplash.com/400x300/?paneer-chilli" },
+  { "name": "gajar_matar", "image": "https://source.unsplash.com/400x300/?gajar-matar" },
+  { "name": "arbi_masala", "image": "https://source.unsplash.com/400x300/?arbi" },
+  { "name": "methi_aloo", "image": "https://source.unsplash.com/400x300/?methi-aloo" },
+  { "name": "tawa_sabzi", "image": "https://source.unsplash.com/400x300/?tawa-sabzi" },
+  { "name": "shahi_paneer", "image": "https://source.unsplash.com/400x300/?shahi-paneer" },
+  { "name": "veg_kurma", "image": "https://source.unsplash.com/400x300/?veg-kurma" },
+  { "name": "kathal_biryani", "image": "https://source.unsplash.com/400x300/?jackfruit-biryani" },
+  { "name": "veg_noodles", "image": "https://source.unsplash.com/400x300/?veg-noodles" },
+  { "name": "baby_corn_masala", "image": "https://source.unsplash.com/400x300/?baby-corn" },
+  { "name": "corn_spinach_curry", "image": "https://source.unsplash.com/400x300/?corn-spinach" },
+  { "name": "mushroom_do_pyaaza", "image": "https://source.unsplash.com/400x300/?mushroom" },
+  { "name": "aloo_baingan", "image": "https://source.unsplash.com/400x300/?aloo-baingan" },
+  { "name": "beans_palya", "image": "https://source.unsplash.com/400x300/?beans" },
+  { "name": "kathirikai_podi", "image": "https://source.unsplash.com/400x300/?brinjal" },
+  { "name": "kothimbir_vadi", "image": "https://source.unsplash.com/400x300/?kothimbir-vadi" },
+  { "name": "raw_banana_sabzi", "image": "https://source.unsplash.com/400x300/?raw-banana" },
+  { "name": "pumpkin_sabzi", "image": "https://source.unsplash.com/400x300/?pumpkin" },
+  { "name": "lauki_chana_dal", "image": "https://source.unsplash.com/400x300/?lauki" },
+  { "name": "zunka_bhakar", "image": "https://source.unsplash.com/400x300/?zunka-bhakar" },
+  { "name": "kale_sabzi", "image": "https://source.unsplash.com/400x300/?kale" },
+  { "name": "gatte_ki_sabzi", "image": "https://source.unsplash.com/400x300/?gatte" },
+  { "name": "undhiyu", "image": "https://source.unsplash.com/400x300/?undhiyu" },
+  { "name": "sabudana_khichdi", "image": "https://source.unsplash.com/400x300/?sabudana-khichdi" },
+  { "name": "patra", "image": "https://source.unsplash.com/400x300/?patra" },
+  { "name": "dal_dhokli", "image": "https://source.unsplash.com/400x300/?dal-dhokli" },
+  { "name": "veg_cutlet", "image": "https://source.unsplash.com/400x300/?veg-cutlet" },
+  { "name": "hara_bhara_kabab", "image": "https://source.unsplash.com/400x300/?hara-bhara-kabab" },
+  { "name": "aloo_tikki", "image": "https://source.unsplash.com/400x300/?aloo-tikki" },
+  { "name": "paneer_roll", "image": "https://source.unsplash.com/400x300/?paneer-roll" },
+  { "name": "veg_spring_rolls", "image": "https://source.unsplash.com/400x300/?spring-rolls" },
+  { "name": "veg_chettinad", "image": "https://source.unsplash.com/400x300/?veg-chettinad" },
+  { "name": "veg_malai_kurma", "image": "https://source.unsplash.com/400x300/?malai-kurma" },
+  { "name": "veg_sukka", "image": "https://source.unsplash.com/400x300/?veg-sukka" },
+  { "name": "broccoli_stir_fry", "image": "https://source.unsplash.com/400x300/?broccoli" },
+  { "name": "gobi_65", "image": "https://source.unsplash.com/400x300/?gobi-65" },
+  { "name": "cauliflower_manchurian", "image": "https://source.unsplash.com/400x300/?cauliflower-manchurian" },
+  { "name": "veg_kebabs", "image": "https://source.unsplash.com/400x300/?veg-kebab" },
+  { "name": "green_peas_masala", "image": "https://source.unsplash.com/400x300/?green-peas" },
+  { "name": "beans_palya", "image": "https://source.unsplash.com/400x300/?beans-palya" },
+  { "name": "veg_hakka_noodles", "image": "https://source.unsplash.com/400x300/?hakka-noodles" },
+  { "name": "veg_schezwan_fried_rice", "image": "https://source.unsplash.com/400x300/?schezwan-rice" },
+  { "name": "veg_pakora", "image": "https://source.unsplash.com/400x300/?veg-pakora" },
+  { "name": "mirchi_bajji", "image": "https://source.unsplash.com/400x300/?mirchi-bajji" },
+  { "name": "bottle_gourd_sabzi", "image": "https://source.unsplash.com/400x300/?bottle-gourd" },
+  { "name": "ash_gourd_curry", "image": "https://source.unsplash.com/400x300/?ash-gourd" },
+  { "name": "paneer_butter_masala", "image": "https://source.unsplash.com/400x300/?paneer-butter-masala" },
+  { "name": "dal_palak", "image": "https://source.unsplash.com/400x300/?dal-palak" },
+  { "name": "veg_bhuna", "image": "https://source.unsplash.com/400x300/?veg-bhuna" },
+  { "name": "chana_dal_sabzi", "image": "https://source.unsplash.com/400x300/?chana-dal" },
+  { "name": "kadhi_pakora", "image": "https://source.unsplash.com/400x300/?kadhi-pakora" },
+  { "name": "veg_masala_dosa", "image": "https://source.unsplash.com/400x300/?masala-dosa" },
+  { "name": "paneer_dosa", "image": "https://source.unsplash.com/400x300/?paneer-dosa" },
+  { "name": "capsicum_masala", "image": "https://source.unsplash.com/400x300/?capsicum-masala" },
+  { "name": "sabzi_miloni", "image": "https://source.unsplash.com/400x300/?sabzi" },
+  { "name": "paneer_korma", "image": "https://source.unsplash.com/400x300/?paneer-korma" },
+  { "name": "soyabean_curry", "image": "https://source.unsplash.com/400x300/?soyabean-curry" },
+  { "name": "aloo_capsicum", "image": "https://source.unsplash.com/400x300/?aloo-capsicum" },
+  { "name": "turnip_curry", "image": "https://source.unsplash.com/400x300/?turnip-curry" },
+  { "name": "peas_pulao", "image": "https://source.unsplash.com/400x300/?peas-pulao" },
+  { "name": "veg_thukpa", "image": "https://source.unsplash.com/400x300/?veg-thukpa" },
+  { "name": "methi_thepla", "image": "https://source.unsplash.com/400x300/?thepla" },
+  { "name": "capsicum_paneer", "image": "https://source.unsplash.com/400x300/?capsicum-paneer" },
+  { "name": "veg_paratha", "image": "https://source.unsplash.com/400x300/?veg-paratha" },
+  { "name": "veg_wrap", "image": "https://source.unsplash.com/400x300/?veg-wrap" },
+  { "name": "veg_pizza", "image": "https://source.unsplash.com/400x300/?veg-pizza" },
+  { "name": "cheese_corn_sandwich", "image": "https://source.unsplash.com/400x300/?cheese-corn-sandwich" },
+  { "name": "stuffed_paratha", "image": "https://source.unsplash.com/400x300/?stuffed-paratha" },
+  { "name": "cucumber_raita", "image": "https://source.unsplash.com/400x300/?cucumber-raita" },
+  { "name": "beetroot_raita", "image": "https://source.unsplash.com/400x300/?beetroot-raita" },
+  { "name": "onion_tomato_raita", "image": "https://source.unsplash.com/400x300/?onion-tomato-raita" },
+  { "name": "pineapple_raita", "image": "https://source.unsplash.com/400x300/?pineapple-raita" },
+  { "name": "mooli_paratha", "image": "https://source.unsplash.com/400x300/?mooli-paratha" },
+  { "name": "gobi_paratha", "image": "https://source.unsplash.com/400x300/?gobi-paratha" },
+  { "name": "paneer_paratha", "image": "https://source.unsplash.com/400x300/?paneer-paratha" },
+  { "name": "mix_veg_paratha", "image": "https://source.unsplash.com/400x300/?mix-veg-paratha" },
+  { "name": "dal_paratha", "image": "https://source.unsplash.com/400x300/?dal-paratha" },
+  { "name": "corn_cheese_paratha", "image": "https://source.unsplash.com/400x300/?corn-cheese-paratha" },
+  { "name": "veg_cutlet_burger", "image": "https://source.unsplash.com/400x300/?veg-burger" },
+  { "name": "veg_sandwich", "image": "https://source.unsplash.com/400x300/?veg-sandwich" },
+  { "name": "paneer_sandwich", "image": "https://source.unsplash.com/400x300/?paneer-sandwich" },
+  { "name": "spinach_corn_sandwich", "image": "https://source.unsplash.com/400x300/?spinach-corn-sandwich" },
+  { "name": "veg_momos", "image": "https://source.unsplash.com/400x300/?veg-momos" },
+  { "name": "paneer_momos", "image": "https://source.unsplash.com/400x300/?paneer-momos" },
+  { "name": "veg_pasta", "image": "https://source.unsplash.com/400x300/?veg-pasta" },
+  { "name": "white_sauce_pasta", "image": "https://source.unsplash.com/400x300/?white-sauce-pasta" },
+  { "name": "red_sauce_pasta", "image": "https://source.unsplash.com/400x300/?red-sauce-pasta" },
+  { "name": "baked_veg", "image": "https://source.unsplash.com/400x300/?baked-vegetables" },
+  { "name": "veg_quiche", "image": "https://source.unsplash.com/400x300/?veg-quiche" },
+  { "name": "veg_frittata", "image": "https://source.unsplash.com/400x300/?veg-frittata" },
+  { "name": "veg_salad", "image": "https://source.unsplash.com/400x300/?veg-salad" },
+  { "name": "greek_salad", "image": "https://source.unsplash.com/400x300/?greek-salad" },
+  { "name": "sprouts_salad", "image": "https://source.unsplash.com/400x300/?sprouts-salad" },
+  { "name": "fruit_salad", "image": "https://source.unsplash.com/400x300/?fruit-salad" },
+  { "name": "pasta_salad", "image": "https://source.unsplash.com/400x300/?pasta-salad" },
+  { "name": "veg_stuffed_tomato", "image": "https://source.unsplash.com/400x300/?stuffed-tomato" },
+  { "name": "stuffed_mushrooms", "image": "https://source.unsplash.com/400x300/?stuffed-mushrooms" },
+  { "name": "stuffed_brinjal", "image": "https://source.unsplash.com/400x300/?stuffed-brinjal" },
+  { "name": "stuffed_potato", "image": "https://source.unsplash.com/400x300/?stuffed-potato" },
+  { "name": "veg_skewers", "image": "https://source.unsplash.com/400x300/?veg-skewers" },
+  { "name": "veg_sizzler", "image": "https://source.unsplash.com/400x300/?veg-sizzler" },
+  { "name": "veg_burrito", "image": "https://source.unsplash.com/400x300/?veg-burrito" },
+  { "name": "veg_tacos", "image": "https://source.unsplash.com/400x300/?veg-tacos" },
+  { "name": "veg_quesadilla", "image": "https://source.unsplash.com/400x300/?veg-quesadilla" },
+  { "name": "veg_enchilada", "image": "https://source.unsplash.com/400x300/?veg-enchilada" },
+  { "name": "veg_ratatouille", "image": "https://source.unsplash.com/400x300/?ratatouille" },
+  { "name": "veg_paella", "image": "https://source.unsplash.com/400x300/?veg-paella" },
+  { "name": "veg_baked_macaroni", "image": "https://source.unsplash.com/400x300/?baked-macaroni" },
+  { "name": "veg_risotto", "image": "https://source.unsplash.com/400x300/?veg-risotto" },
+  { "name": "stuffed_capsicum", "image": "https://source.unsplash.com/400x300/?stuffed-capsicum" },
+  { "name": "stuffed_pepper", "image": "https://source.unsplash.com/400x300/?stuffed-pepper" },
+  { "name": "mushroom_biryani", "image": "https://source.unsplash.com/400x300/?mushroom-biryani" },
+  { "name": "paneer_biryani", "image": "https://source.unsplash.com/400x300/?paneer-biryani" },
+  { "name": "veggie_biryani", "image": "https://source.unsplash.com/400x300/?veggie-biryani" },
+  { "name": "tofu_stir_fry", "image": "https://source.unsplash.com/400x300/?tofu-stir-fry" },
+  { "name": "tofu_salad", "image": "https://source.unsplash.com/400x300/?tofu-salad" },
+  { "name": "paneer_tikka_wrap", "image": "https://source.unsplash.com/400x300/?paneer-tikka-wrap" },
+  { "name": "methi_malai_matar", "image": "https://source.unsplash.com/400x300/?methi-malai-matar" },
+  { "name": "sarson_ka_saag", "image": "https://source.unsplash.com/400x300/?sarson-ka-saag" },
+  { "name": "bathua_saag", "image": "https://source.unsplash.com/400x300/?bathua-saag" },
+  { "name": "bhindi_kurkuri", "image": "https://source.unsplash.com/400x300/?bhindi" },
+  { "name": "tinda_masala", "image": "https://source.unsplash.com/400x300/?tinda-masala" },
+  { "name": "chana_sundal", "image": "https://source.unsplash.com/400x300/?chana-sundal" },
+  { "name": "moong_sprout_sundal", "image": "https://source.unsplash.com/400x300/?sprout-sundal" },
+  { "name": "veg_bonda", "image": "https://source.unsplash.com/400x300/?veg-bonda" },
+  { "name": "masala_vada", "image": "https://source.unsplash.com/400x300/?masala-vada" },
+  { "name": "dal_vada", "image": "https://source.unsplash.com/400x300/?dal-vada" },
+  { "name": "sabudana_vada", "image": "https://source.unsplash.com/400x300/?sabudana-vada" },
+  { "name": "soya_chunk_curry", "image": "https://source.unsplash.com/400x300/?soya-chunk-curry" },
+  { "name": "soya_chunk_stir_fry", "image": "https://source.unsplash.com/400x300/?soya-stir-fry" },
+  { "name": "mix_veg_korma", "image": "https://source.unsplash.com/400x300/?mix-veg-korma" },
+  { "name": "veg_pulav", "image": "https://source.unsplash.com/400x300/?veg-pulav" },
+  { "name": "lemon_rice", "image": "https://source.unsplash.com/400x300/?lemon-rice" },
+  { "name": "tamarind_rice", "image": "https://source.unsplash.com/400x300/?tamarind-rice" },
+  { "name": "coconut_rice", "image": "https://source.unsplash.com/400x300/?coconut-rice" },
+  { "name": "curd_rice", "image": "https://source.unsplash.com/400x300/?curd-rice" },
+  { "name": "veggie_wrap", "image": "https://source.unsplash.com/400x300/?veggie-wrap" },
+  { "name": "mushroom_wrap", "image": "https://source.unsplash.com/400x300/?mushroom-wrap" },
+  { "name": "veggie_pasta_salad", "image": "https://source.unsplash.com/400x300/?veggie-pasta-salad" },
+  { "name": "veg_dal_khichdi", "image": "https://source.unsplash.com/400x300/?dal-khichdi" },
+  { "name": "bajra_khichdi", "image": "https://source.unsplash.com/400x300/?bajra-khichdi" },
+  { "name": "veg_upma", "image": "https://source.unsplash.com/400x300/?veg-upma" },
+  { "name": "rava_khichdi", "image": "https://source.unsplash.com/400x300/?rava-khichdi" },
+  { "name": "oats_upma", "image": "https://source.unsplash.com/400x300/?oats-upma" },
+  { "name": "veg_idli", "image": "https://source.unsplash.com/400x300/?veg-idli" },
+  { "name": "rava_idli", "image": "https://source.unsplash.com/400x300/?rava-idli" },
+  { "name": "kanchipuram_idli", "image": "https://source.unsplash.com/400x300/?kanchipuram-idli" },
+  { "name": "poha", "image": "https://source.unsplash.com/400x300/?poha" },
+  { "name": "beaten_rice_upma", "image": "https://source.unsplash.com/400x300/?beaten-rice-upma" },
+  { "name": "veg_dhokla", "image": "https://source.unsplash.com/400x300/?veg-dhokla" },
+  { "name": "methi_dhokla", "image": "https://source.unsplash.com/400x300/?methi-dhokla" },
+  { "name": "sandwich_dhokla", "image": "https://source.unsplash.com/400x300/?sandwich-dhokla" },
+  { "name": "khandvi", "image": "https://source.unsplash.com/400x300/?khandvi" },
+  { "name": "handvo", "image": "https://source.unsplash.com/400x300/?handvo" },
+  { "name": "dabeli", "image": "https://source.unsplash.com/400x300/?dabeli" },
+  { "name": "vada_pav", "image": "https://source.unsplash.com/400x300/?vada-pav" },
+  { "name": "misal_pav", "image": "https://source.unsplash.com/400x300/?misal-pav" },
+  { "name": "pav_bhaji", "image": "https://source.unsplash.com/400x300/?pav-bhaji" },
+  { "name": "usali", "image": "https://source.unsplash.com/400x300/?usali" },
+  { "name": "dhokla_chaat", "image": "https://source.unsplash.com/400x300/?dhokla-chaat" }
+
 ],
-"vegies":
-  [
+"non_vegies": [
   {
-    "id": 1,
-    "name": "Lauki Curry",
-    "type": "veg",
-    "ingredients": "Mixed Vegetables, Rice",
-    "cuisine": "Gujarati",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg1.jpg"
+    "name": "Chicken Biryani",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Biryani"
   },
   {
-    "id": 2,
-    "name": "Palak Paneer",
-    "type": "veg",
-    "ingredients": "Paneer, Tomato, Spices",
-    "cuisine": "Maharashtrian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg2.jpg"
+    "name": "Butter Chicken",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Butter+Chicken"
   },
   {
-    "id": 3,
-    "name": "Vegetable Cutlet",
-    "type": "veg",
-    "ingredients": "Spinach, Garlic, Cream",
-    "cuisine": "Karnataka",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg3.jpg"
+    "name": "Mutton Rogan Josh",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Rogan+Josh"
   },
   {
-    "id": 4,
-    "name": "Gobi Manchurian",
-    "type": "veg",
-    "ingredients": "Spinach, Garlic, Cream",
-    "cuisine": "South Indian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg4.jpg"
-  },
-  {
-    "id": 5,
-    "name": "Kadhi Pakora",
-    "type": "veg",
-    "ingredients": "Spinach, Garlic, Cream",
-    "cuisine": "Maharashtrian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg5.jpg"
-  },
-  {
-    "id": 6,
-    "name": "Vegetable Burger",
-    "type": "veg",
-    "ingredients": "Lentils, Garlic, Mustard Seeds",
-    "cuisine": "South Indian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg6.jpg"
-  },
-  {
-    "id": 7,
-    "name": "Malai Kofta",
-    "type": "veg",
-    "ingredients": "Spinach, Garlic, Cream",
-    "cuisine": "Bengali",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg7.jpg"
-  },
-  {
-    "id": 8,
-    "name": "Vegetable Sandwich",
-    "type": "veg",
-    "ingredients": "Mixed Vegetables, Rice",
-    "cuisine": "Gujarati",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg8.jpg"
-  },
-  {
-    "id": 9,
-    "name": "Tawa Sabzi",
-    "type": "veg",
-    "ingredients": "Mixed Vegetables, Rice",
-    "cuisine": "Karnataka",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg9.jpg"
-  },
-  {
-    "id": 10,
-    "name": "Bhindi Fry",
-    "type": "veg",
-    "ingredients": "Paneer, Tomato, Spices",
-    "cuisine": "South Indian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg10.jpg"
-  },
-  {
-    "id": 11,
-    "name": "Vegetable Korma",
-    "type": "veg",
-    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
-    "cuisine": "Bengali",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg11.jpg"
-  },
-  {
-    "id": 12,
-    "name": "Pav Bhaji",
-    "type": "veg",
-    "ingredients": "Cabbage, Carrot, Beans",
-    "cuisine": "Bengali",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg12.jpg"
-  },
-  {
-    "id": 13,
-    "name": "Corn Capsicum Masala",
-    "type": "veg",
-    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
-    "cuisine": "Punjabi",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg13.jpg"
-  },
-  {
-    "id": 14,
-    "name": "Bhindi Fry",
-    "type": "veg",
-    "ingredients": "Chickpeas, Onion, Tomato",
-    "cuisine": "Punjabi",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg14.jpg"
-  },
-  {
-    "id": 15,
-    "name": "Sambar",
-    "type": "veg",
-    "ingredients": "Lentils, Garlic, Mustard Seeds",
-    "cuisine": "Karnataka",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg15.jpg"
-  },
-  {
-    "id": 16,
-    "name": "Schezwan Fried Rice",
-    "type": "veg",
-    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
-    "cuisine": "Punjabi",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg16.jpg"
-  },
-  {
-    "id": 17,
-    "name": "Paneer Butter Masala",
-    "type": "veg",
-    "ingredients": "Chickpeas, Onion, Tomato",
-    "cuisine": "North Indian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg17.jpg"
-  },
-  {
-    "id": 18,
-    "name": "Baingan Bharta",
-    "type": "veg",
-    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
-    "cuisine": "Rajasthani",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg18.jpg"
-  },
-  {
-    "id": 19,
-    "name": "Vegetable Handi",
-    "type": "veg",
-    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
-    "cuisine": "Indo-Chinese",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg19.jpg"
-  },
-  {
-    "id": 20,
-    "name": "Gobi Manchurian",
-    "type": "veg",
-    "ingredients": "Mixed Vegetables, Rice",
-    "cuisine": "Indo-Chinese",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg20.jpg"
-  },
-  {
-    "id": 21,
-    "name": "Carrot Halwa",
-    "type": "veg",
-    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
-    "cuisine": "Andhra",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg21.jpg"
-  },
-  {
-    "id": 22,
-    "name": "Vegetable Biryani",
-    "type": "veg",
-    "ingredients": "Lentils, Garlic, Mustard Seeds",
-    "cuisine": "Bengali",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg22.jpg"
-  },
-  {
-    "id": 23,
-    "name": "Vegetable Sandwich",
-    "type": "veg",
-    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
-    "cuisine": "Bengali",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg23.jpg"
-  },
-  {
-    "id": 24,
-    "name": "Dhokla",
-    "type": "veg",
-    "ingredients": "Lentils, Garlic, Mustard Seeds",
-    "cuisine": "Karnataka",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg24.jpg"
-  },
-  {
-    "id": 25,
-    "name": "Matar Paneer",
-    "type": "veg",
-    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
-    "cuisine": "Indo-Chinese",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg25.jpg"
-  },
-  {
-    "id": 26,
-    "name": "Lemon Rice",
-    "type": "veg",
-    "ingredients": "Lentils, Garlic, Mustard Seeds",
-    "cuisine": "South Indian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg26.jpg"
-  },
-  {
-    "id": 27,
-    "name": "Corn Capsicum Masala",
-    "type": "veg",
-    "ingredients": "Paneer, Tomato, Spices",
-    "cuisine": "North Indian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg27.jpg"
-  },
-  {
-    "id": 28,
-    "name": "Tomato Rasam",
-    "type": "veg",
-    "ingredients": "Green Peas, Onion, Ghee",
-    "cuisine": "Gujarati",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg28.jpg"
-  },
-  {
-    "id": 29,
-    "name": "Vegetable Pizza",
-    "type": "veg",
-    "ingredients": "Cabbage, Carrot, Beans",
-    "cuisine": "Andhra",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg29.jpg"
-  },
-  {
-    "id": 30,
-    "name": "Chole Bhature",
-    "type": "veg",
-    "ingredients": "Spinach, Garlic, Cream",
-    "cuisine": "Indo-Chinese",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg30.jpg"
-  },
-  {
-    "id": 31,
-    "name": "Tindora Fry",
-    "type": "veg",
-    "ingredients": "Cabbage, Carrot, Beans",
-    "cuisine": "South Indian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg31.jpg"
-  },
-  {
-    "id": 32,
-    "name": "Corn Capsicum Masala",
-    "type": "veg",
-    "ingredients": "Potatoes, Curry Leaves",
-    "cuisine": "Punjabi",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg32.jpg"
-  },
-  {
-    "id": 33,
-    "name": "Dhokla",
-    "type": "veg",
-    "ingredients": "Spinach, Garlic, Cream",
-    "cuisine": "North Indian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg33.jpg"
-  },
-  {
-    "id": 34,
-    "name": "Sprouts Salad",
-    "type": "veg",
-    "ingredients": "Potatoes, Curry Leaves",
-    "cuisine": "North Indian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg34.jpg"
-  },
-  {
-    "id": 35,
-    "name": "Dal Tadka",
-    "type": "veg",
-    "ingredients": "Potatoes, Curry Leaves",
-    "cuisine": "Rajasthani",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg35.jpg"
-  },
-  {
-    "id": 36,
-    "name": "Paneer Tikka",
-    "type": "veg",
-    "ingredients": "Chickpeas, Onion, Tomato",
-    "cuisine": "North Indian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg36.jpg"
-  },
-  {
-    "id": 37,
-    "name": "Vegetable Burger",
-    "type": "veg",
-    "ingredients": "Green Peas, Onion, Ghee",
-    "cuisine": "Rajasthani",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg37.jpg"
-  },
-  {
-    "id": 38,
-    "name": "Mushroom Masala",
-    "type": "veg",
-    "ingredients": "Mixed Vegetables, Rice",
-    "cuisine": "Bengali",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg38.jpg"
-  },
-  {
-    "id": 39,
-    "name": "Khichdi",
-    "type": "veg",
-    "ingredients": "Cabbage, Carrot, Beans",
-    "cuisine": "Rajasthani",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg39.jpg"
-  },
-  {
-    "id": 40,
-    "name": "Pav Bhaji",
-    "type": "veg",
-    "ingredients": "Cabbage, Carrot, Beans",
-    "cuisine": "Indo-Chinese",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg40.jpg"
-  },
-  {
-    "id": 41,
-    "name": "Vegetable Cutlet",
-    "type": "veg",
-    "ingredients": "Cabbage, Carrot, Beans",
-    "cuisine": "North Indian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg41.jpg"
-  },
-  {
-    "id": 42,
-    "name": "Mixed Veg Curry",
-    "type": "veg",
-    "ingredients": "Mixed Vegetables, Rice",
-    "cuisine": "Punjabi",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg42.jpg"
-  },
-  {
-    "id": 43,
-    "name": "Stuffed Paratha",
-    "type": "veg",
-    "ingredients": "Potatoes, Curry Leaves",
-    "cuisine": "South Indian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg43.jpg"
-  },
-  {
-    "id": 44,
-    "name": "Sambar",
-    "type": "veg",
-    "ingredients": "Lentils, Garlic, Mustard Seeds",
-    "cuisine": "Karnataka",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg44.jpg"
-  },
-  {
-    "id": 45,
-    "name": "Sprouts Salad",
-    "type": "veg",
-    "ingredients": "Potatoes, Curry Leaves",
-    "cuisine": "Maharashtrian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg45.jpg"
-  },
-  {
-    "id": 46,
-    "name": "Lauki Curry",
-    "type": "veg",
-    "ingredients": "Mixed Vegetables, Rice",
-    "cuisine": "Rajasthani",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg46.jpg"
-  },
-  {
-    "id": 47,
-    "name": "Poha",
-    "type": "veg",
-    "ingredients": "Spinach, Garlic, Cream",
-    "cuisine": "Punjabi",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg47.jpg"
-  },
-  {
-    "id": 48,
-    "name": "Aloo Paratha",
-    "type": "veg",
-    "ingredients": "Potatoes, Curry Leaves",
-    "cuisine": "Andhra",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg48.jpg"
-  },
-  {
-    "id": 49,
-    "name": "Tawa Sabzi",
-    "type": "veg",
-    "ingredients": "Green Peas, Onion, Ghee",
-    "cuisine": "Karnataka",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg49.jpg"
-  },
-  {
-    "id": 50,
-    "name": "Tamarind Rice",
-    "type": "veg",
-    "ingredients": "Chickpeas, Onion, Tomato",
-    "cuisine": "Rajasthani",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg50.jpg"
-  },
-  {
-    "id": 51,
-    "name": "Cabbage Thoran",
-    "type": "veg",
-    "ingredients": "Lentils, Garlic, Mustard Seeds",
-    "cuisine": "Karnataka",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg51.jpg"
-  },
-  {
-    "id": 52,
-    "name": "Dhokla",
-    "type": "veg",
-    "ingredients": "Chickpeas, Onion, Tomato",
-    "cuisine": "Rajasthani",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg52.jpg"
-  },
-  {
-    "id": 53,
-    "name": "Gobi Manchurian",
-    "type": "veg",
-    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
-    "cuisine": "Gujarati",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg53.jpg"
-  },
-  {
-    "id": 54,
-    "name": "Sambar",
-    "type": "veg",
-    "ingredients": "Spinach, Garlic, Cream",
-    "cuisine": "Punjabi",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg54.jpg"
-  },
-  {
-    "id": 55,
-    "name": "Matar Paneer",
-    "type": "veg",
-    "ingredients": "Lentils, Garlic, Mustard Seeds",
-    "cuisine": "Maharashtrian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg55.jpg"
-  },
-  {
-    "id": 56,
-    "name": "Vangibath",
-    "type": "veg",
-    "ingredients": "Spinach, Garlic, Cream",
-    "cuisine": "Gujarati",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg56.jpg"
-  },
-  {
-    "id": 57,
-    "name": "Vegetable Pakora",
-    "type": "veg",
-    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
-    "cuisine": "Rajasthani",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg57.jpg"
-  },
-  {
-    "id": 58,
-    "name": "Bottle Gourd Kofta",
-    "type": "veg",
-    "ingredients": "Potatoes, Curry Leaves",
-    "cuisine": "Karnataka",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg58.jpg"
-  },
-  {
-    "id": 59,
-    "name": "Tindora Fry",
-    "type": "veg",
-    "ingredients": "Cauliflower, Cornflour, Soy Sauce",
-    "cuisine": "Karnataka",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg59.jpg"
-  },
-  {
-    "id": 60,
-    "name": "Aloo Tikki",
-    "type": "veg",
-    "ingredients": "Potatoes, Curry Leaves",
-    "cuisine": "Maharashtrian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg60.jpg"
-  },
-  {
-    "id": 61,
-    "name": "Moong Dal Chilla",
-    "type": "veg",
-    "ingredients": "Spinach, Garlic, Cream",
-    "cuisine": "Punjabi",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg61.jpg"
-  },
-  {
-    "id": 62,
-    "name": "Paneer Butter Masala",
-    "type": "veg",
-    "ingredients": "Chickpeas, Onion, Tomato",
-    "cuisine": "Punjabi",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg62.jpg"
-  },
-  {
-    "id": 63,
-    "name": "Masala Dosa",
-    "type": "veg",
-    "ingredients": "Spinach, Garlic, Cream",
-    "cuisine": "North Indian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg63.jpg"
-  },
-  {
-    "id": 64,
-    "name": "Dal Tadka",
-    "type": "veg",
-    "ingredients": "Spinach, Garlic, Cream",
-    "cuisine": "Karnataka",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg64.jpg"
-  },
-  {
-    "id": 65,
-    "name": "Veg Kurma",
-    "type": "veg",
-    "ingredients": "Paneer, Tomato, Spices",
-    "cuisine": "South Indian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg65.jpg"
-  },
-  {
-    "id": 66,
-    "name": "Paneer Butter Masala",
-    "type": "veg",
-    "ingredients": "Potatoes, Curry Leaves",
-    "cuisine": "Punjabi",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg66.jpg"
-  },
-  {
-    "id": 67,
-    "name": "Paneer Tikka",
-    "type": "veg",
-    "ingredients": "Mixed Vegetables, Rice",
-    "cuisine": "Rajasthani",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg67.jpg"
-  },
-  {
-    "id": 68,
-    "name": "Cabbage Thoran",
-    "type": "veg",
-    "ingredients": "Lentils, Garlic, Mustard Seeds",
-    "cuisine": "Bengali",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg68.jpg"
-  },
-  {
-    "id": 69,
-    "name": "Gobi Manchurian",
-    "type": "veg",
-    "ingredients": "Paneer, Tomato, Spices",
-    "cuisine": "South Indian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg69.jpg"
-  },
-  {
-    "id": 70,
-    "name": "Khichdi",
-    "type": "veg",
-    "ingredients": "Cabbage, Carrot, Beans",
-    "cuisine": "Maharashtrian",
-    "instructions": "Prepare ingredients, cook with spices, and serve hot with rice or bread.",
-    "image": "https://example.com/images/veg70.jpg"
-  }
-],
-"non_vegies":
-  [
-  {
-    "name": "Beef Biryani",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Biryani",
-    "type": "nonveg"
-  },
-  {
-    "name": "Beef Curry",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Curry",
-    "type": "nonveg"
-  },
-  {
-    "name": "Beef Gravy",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Gravy",
-    "type": "nonveg"
-  },
-  {
-    "name": "Beef Roast",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Roast",
-    "type": "nonveg"
-  },
-  {
-    "name": "Beef Saut\u00e9",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Saut\u00e9",
-    "type": "nonveg"
-  },
-  {
-    "name": "Beef Tikka",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Tikka",
-    "type": "nonveg"
-  },
-  {
-    "name": "Chicken Curry",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Curry",
-    "type": "nonveg"
-  },
-  {
-    "name": "Chicken Fry",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Fry",
-    "type": "nonveg"
-  },
-  {
-    "name": "Chicken Gravy",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Gravy",
-    "type": "nonveg"
-  },
-  {
-    "name": "Chicken Kebab",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Kebab",
-    "type": "nonveg"
-  },
-  {
-    "name": "Chicken Saut\u00e9",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Saut\u00e9",
-    "type": "nonveg"
-  },
-  {
-    "name": "Chicken Stew",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Stew",
-    "type": "nonveg"
+    "name": "Fish Curry",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Curry"
   },
   {
     "name": "Chicken Tikka",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Tikka",
-    "type": "nonveg"
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Tikka"
   },
   {
-    "name": "Crab Curry",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Curry",
-    "type": "nonveg"
-  },
-  {
-    "name": "Crab Fry",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Fry",
-    "type": "nonveg"
-  },
-  {
-    "name": "Crab Gravy",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Gravy",
-    "type": "nonveg"
-  },
-  {
-    "name": "Crab Kebab",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Kebab",
-    "type": "nonveg"
-  },
-  {
-    "name": "Crab Masala",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Masala",
-    "type": "nonveg"
-  },
-  {
-    "name": "Crab Roast",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Roast",
-    "type": "nonveg"
-  },
-  {
-    "name": "Crab Saut\u00e9",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Saut\u00e9",
-    "type": "nonveg"
-  },
-  {
-    "name": "Crab Stew",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Stew",
-    "type": "nonveg"
-  },
-  {
-    "name": "Duck Biryani",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Biryani",
-    "type": "nonveg"
-  },
-  {
-    "name": "Duck Curry",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Curry",
-    "type": "nonveg"
-  },
-  {
-    "name": "Duck Fry",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Fry",
-    "type": "nonveg"
-  },
-  {
-    "name": "Duck Masala",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Masala",
-    "type": "nonveg"
-  },
-  {
-    "name": "Duck Roast",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Roast",
-    "type": "nonveg"
-  },
-  {
-    "name": "Duck Saut\u00e9",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Saut\u00e9",
-    "type": "nonveg"
-  },
-  {
-    "name": "Duck Stew",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Stew",
-    "type": "nonveg"
-  },
-  {
-    "name": "Duck Tikka",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Tikka",
-    "type": "nonveg"
-  },
-  {
-    "name": "Egg Biryani",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Biryani",
-    "type": "nonveg"
+    "name": "Prawn Masala",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawn+Masala"
   },
   {
     "name": "Egg Curry",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Curry",
-    "type": "nonveg"
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Curry"
   },
   {
-    "name": "Egg Fry",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Fry",
-    "type": "nonveg"
+    "name": "Keema Paratha",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Keema+Paratha"
   },
   {
-    "name": "Egg Gravy",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Gravy",
-    "type": "nonveg"
+    "name": "Grilled Chicken",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Grilled+Chicken"
   },
   {
-    "name": "Egg Masala",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Masala",
-    "type": "nonveg"
+    "name": "Chicken Chettinad",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Chettinad"
   },
   {
-    "name": "Egg Roast",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Roast",
-    "type": "nonveg"
+    "name": "Chicken Lollipop",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Lollipop"
   },
   {
-    "name": "Egg Saut\u00e9",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Saut\u00e9",
-    "type": "nonveg"
+    "name": "Andhra Chicken",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Andhra+Chicken"
   },
   {
-    "name": "Egg Stew",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Stew",
-    "type": "nonveg"
+    "name": "Kadai Chicken",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Kadai+Chicken"
   },
   {
-    "name": "Fish Biryani",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Biryani",
-    "type": "nonveg"
+    "name": "Chicken Do Pyaza",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Do+Pyaza"
   },
   {
-    "name": "Fish Masala",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Masala",
-    "type": "nonveg"
+    "name": "Chicken Handi",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Handi"
   },
   {
-    "name": "Fish Saut\u00e9",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Saut\u00e9",
-    "type": "nonveg"
+    "name": "Tandoori Chicken",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Tandoori+Chicken"
   },
   {
-    "name": "Fish Stew",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Stew",
-    "type": "nonveg"
+    "name": "Hyderabadi Biryani",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Hyderabadi+Biryani"
   },
   {
-    "name": "Fish Tikka",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Tikka",
-    "type": "nonveg"
+    "name": "Fish Fry",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Fry"
   },
   {
-    "name": "Lamb Biryani",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Lamb+Biryani",
-    "type": "nonveg"
+    "name": "Chicken Mughlai",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Mughlai"
   },
   {
-    "name": "Lamb Gravy",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Lamb+Gravy",
-    "type": "nonveg"
+    "name": "Shrimp Curry",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Shrimp+Curry"
   },
   {
-    "name": "Lamb Kebab",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Lamb+Kebab",
-    "type": "nonveg"
+    "name": "Beef Fry",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Fry"
   },
   {
-    "name": "Lamb Saut\u00e9",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Lamb+Saut\u00e9",
-    "type": "nonveg"
+    "name": "Beef Curry",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Curry"
   },
   {
-    "name": "Lamb Stew",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Lamb+Stew",
-    "type": "nonveg"
+    "name": "Beef Keema",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Keema"
+  },
+  {
+    "name": "Lamb Korma",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Lamb+Korma"
+  },
+  {
+    "name": "Chicken Korma",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Korma"
+  },
+  {
+    "name": "Crab Masala",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Masala"
+  },
+  {
+    "name": "Egg Biryani",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Biryani"
   },
   {
     "name": "Mutton Biryani",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Biryani",
-    "type": "nonveg"
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Biryani"
+  },
+  {
+    "name": "Fish Biryani",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Biryani"
+  },
+  {
+    "name": "Chicken 65",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+65"
+  },
+  {
+    "name": "Chicken Manchurian",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Manchurian"
+  },
+  {
+    "name": "Chicken Pakora",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Pakora"
+  },
+  {
+    "name": "Chicken Nuggets",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Nuggets"
+  },
+  {
+    "name": "Fish Fingers",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Fingers"
+  },
+  {
+    "name": "Tuna Sandwich",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Tuna+Sandwich"
+  },
+  {
+    "name": "Chicken Sandwich",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Sandwich"
+  },
+  {
+    "name": "Lamb Seekh Kebab",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Lamb+Seekh+Kebab"
+  },
+  {
+    "name": "Chicken Seekh Kebab",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Seekh+Kebab"
+  },
+  {
+    "name": "Lamb Curry",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Lamb+Curry"
+  },
+  {
+    "name": "Goan Fish Curry",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Goan+Fish+Curry"
+  },
+  {
+    "name": "Fish Tikka",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Tikka"
+  },
+  {
+    "name": "Lamb Biryani",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Lamb+Biryani"
+  },
+  {
+    "name": "Egg Masala",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Masala"
+  },
+  {
+    "name": "Squid Fry",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Squid+Fry"
   },
   {
     "name": "Mutton Curry",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Curry",
-    "type": "nonveg"
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Curry"
   },
   {
-    "name": "Mutton Fry",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Fry",
-    "type": "nonveg"
+    "name": "Tandoori Fish",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Tandoori+Fish"
   },
   {
-    "name": "Mutton Gravy",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Gravy",
-    "type": "nonveg"
+    "name": "Chicken Pulao",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Pulao"
   },
   {
-    "name": "Mutton Roast",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Roast",
-    "type": "nonveg"
+    "name": "Beef Stroganoff",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Stroganoff"
   },
   {
-    "name": "Mutton Stew",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Stew",
-    "type": "nonveg"
+    "name": "Roast Chicken",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Roast+Chicken"
   },
   {
-    "name": "Mutton Tikka",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Tikka",
-    "type": "nonveg"
+    "name": "Chili Chicken",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chili+Chicken"
   },
   {
-    "name": "Prawns Biryani",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Biryani",
-    "type": "nonveg"
+    "name": "Egg Omelette",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Omelette"
   },
   {
-    "name": "Prawns Curry",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Curry",
-    "type": "nonveg"
+    "name": "Grilled Fish",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Grilled+Fish"
   },
   {
-    "name": "Prawns Fry",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Fry",
-    "type": "nonveg"
+    "name": "Chicken Kebabs",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Kebabs"
   },
   {
-    "name": "Prawns Gravy",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Gravy",
-    "type": "nonveg"
+    "name": "Chicken Frankie",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Frankie"
   },
   {
-    "name": "Prawns Kebab",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Kebab",
-    "type": "nonveg"
+    "name": "Egg Roll",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Roll"
   },
   {
-    "name": "Prawns Masala",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Masala",
-    "type": "nonveg"
-  },
-  {
-    "name": "Prawns Roast",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Roast",
-    "type": "nonveg"
-  },
-  {
-    "name": "Prawns Saut\u00e9",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Saut\u00e9",
-    "type": "nonveg"
-  },
-  {
-    "name": "Prawns Stew",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Stew",
-    "type": "nonveg"
-  },
-  {
-    "name": "Prawns Tikka",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawns+Tikka",
-    "type": "nonveg"
-  },
-  {
-    "name": "Turkey Curry",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Turkey+Curry",
-    "type": "nonveg"
-  },
-  {
-    "name": "Turkey Fry",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Turkey+Fry",
-    "type": "nonveg"
-  },
-  {
-    "name": "Turkey Masala",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Turkey+Masala",
-    "type": "nonveg"
+    "name": "Chicken Shawarma",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Shawarma"
   },
   {
     "name": "Turkey Roast",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Turkey+Roast",
-    "type": "nonveg"
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Turkey+Roast"
   },
   {
-    "name": "Turkey Saut\u00e9",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Turkey+Saut\u00e9",
-    "type": "nonveg"
+    "name": "Duck Curry",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Curry"
   },
   {
-    "name": "Turkey Tikka",
-    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Turkey+Tikka",
-    "type": "nonveg"
+    "name": "Crab Curry",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Curry"
+  },
+  {
+    "name": "Fish Moilee",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Moilee"
+  },
+  {
+    "name": "Mutton Stew",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Stew"
+  },
+  {
+    "name": "Chicken Salna",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Salna"
+  },
+  {
+    "name": "Chicken Stew",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Stew"
+  },
+  {
+    "name": "Chicken Saagwala",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Saagwala"
+  },
+  {
+    "name": "Fish Cutlet",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Cutlet"
+  },
+  {
+    "name": "Egg Bhurji",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Bhurji"
+  },
+  {
+    "name": "Chicken Popcorn",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Popcorn"
+  },
+  {
+    "name": "Fish Makhani",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Makhani"
+  },
+  {
+    "name": "Mutton Keema",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Keema"
+  },
+  {
+    "name": "Egg Paratha",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Paratha"
+  },
+  {
+    "name": "Chicken Curry",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Curry"
+  },
+  {
+    "name": "Beef Burger",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Burger"
+  },
+  {
+    "name": "Fish Burger",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Burger"
+  },
+  {
+    "name": "Chicken Burger",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Burger"
+  },
+  {
+    "name": "Chicken Wrap",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Wrap"
+  },
+  {
+    "name": "Prawn Biryani",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawn+Biryani"
+  },
+  {
+    "name": "Lobster Curry",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Lobster+Curry"
+  },
+  {
+    "name": "Duck Roast",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Duck+Roast"
+  },
+  {
+    "name": "Turkey Curry",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Turkey+Curry"
+  },
+  {
+    "name": "Fish Fingers",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Fingers"
+  },
+  {
+    "name": "Chicken Skewers",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Skewers"
+  },
+  {
+    "name": "Prawn Fry",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawn+Fry"
+  },
+  {
+    "name": "Tandoori Prawns",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Tandoori+Prawns"
+  },
+  {
+    "name": "Fish Tandoori",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Fish+Tandoori"
+  },
+  {
+    "name": "Egg Fry",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Fry"
+  },
+  {
+    "name": "Crab Fry",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Crab+Fry"
+  },
+  {
+    "name": "Lamb Chops",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Lamb+Chops"
+  },
+  {
+    "name": "Mutton Chops",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Chops"
+  },
+  {
+    "name": "Chicken Legs",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Legs"
+  },
+  {
+    "name": "Stuffed Chicken",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Stuffed+Chicken"
+  },
+  {
+    "name": "Egg Toast",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Egg+Toast"
+  },
+  {
+    "name": "Beef Steak",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Beef+Steak"
+  },
+  {
+    "name": "Mutton Rara",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Mutton+Rara"
+  },
+  {
+    "name": "Chicken Bhuna",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Bhuna"
+  },
+  {
+    "name": "Chicken Jalfrezi",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Jalfrezi"
+  },
+  {
+    "name": "Chicken Kurma",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Chicken+Kurma"
+  },
+  {
+    "name": "Shrimp Fry",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Shrimp+Fry"
+  },
+  {
+    "name": "Prawn Pulav",
+    "type": "nonveg",
+    "image": "https://dummyimage.com/300x200/ff6666/fff&text=Prawn+Pulav"
   }
-]
-
+],
+"korean": [
+  {
+    "id": 1,
+    "name": "Samgyeopsal 1",
+    "type": "korean",
+    "ingredients": "Sesame Oil, Green Onion, Rice, Egg",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Samgyeopsal+1"
+  },
+  {
+    "id": 2,
+    "name": "Dakgangjeong 2",
+    "type": "korean",
+    "ingredients": "Spinach, Beef, Egg, Mushroom",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Dakgangjeong+2"
+  },
+  {
+    "id": 3,
+    "name": "Jumeokbap 3",
+    "type": "korean",
+    "ingredients": "Chicken, Egg, Rice, Beef",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Jumeokbap+3"
+  },
+  {
+    "id": 4,
+    "name": "Bulgogi 4",
+    "type": "korean",
+    "ingredients": "Mushroom, Sesame Oil, Garlic, Kimchi",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Bulgogi+4"
+  },
+  {
+    "id": 5,
+    "name": "Korean Egg Roll 5",
+    "type": "korean",
+    "ingredients": "Carrot, Mushroom, Tofu, Spinach",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Korean+Egg+Roll+5"
+  },
+  {
+    "id": 6,
+    "name": "Eomuk 6",
+    "type": "korean",
+    "ingredients": "Pork, Garlic, Gochujang, Egg",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Eomuk+6"
+  },
+  {
+    "id": 7,
+    "name": "Doenjang Jjigae 7",
+    "type": "korean",
+    "ingredients": "Rice, Carrot, Garlic, Green Onion",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Doenjang+Jjigae+7"
+  },
+  {
+    "id": 8,
+    "name": "Maeuntang 8",
+    "type": "korean",
+    "ingredients": "Pork, Egg, Tofu, Chicken",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Maeuntang+8"
+  },
+  {
+    "id": 9,
+    "name": "Galbi 9",
+    "type": "korean",
+    "ingredients": "Rice, Sesame Oil, Green Onion, Carrot",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Galbi+9"
+  },
+  {
+    "id": 10,
+    "name": "Kimchi Jjigae 10",
+    "type": "korean",
+    "ingredients": "Garlic, Beef, Kimchi, Noodles",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Kimchi+Jjigae+10"
+  },
+  {
+    "id": 11,
+    "name": "Sundubu Jjigae 11",
+    "type": "korean",
+    "ingredients": "Soy Sauce, Carrot, Sesame Oil, Chicken",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Sundubu+Jjigae+11"
+  },
+  {
+    "id": 12,
+    "name": "Kimchi Bokkeumbap 12",
+    "type": "korean",
+    "ingredients": "Mushroom, Spinach, Rice, Green Onion",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Kimchi+Bokkeumbap+12"
+  },
+  {
+    "id": 13,
+    "name": "Bulgogi 13",
+    "type": "korean",
+    "ingredients": "Green Onion, Rice, Noodles, Pork",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Bulgogi+13"
+  },
+  {
+    "id": 14,
+    "name": "Jajangmyeon 14",
+    "type": "korean",
+    "ingredients": "Carrot, Tofu, Egg, Garlic",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Jajangmyeon+14"
+  },
+  {
+    "id": 15,
+    "name": "Dolsot Bibimbap 15",
+    "type": "korean",
+    "ingredients": "Beef, Mushroom, Sesame Oil, Chicken",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Dolsot+Bibimbap+15"
+  },
+  {
+    "id": 16,
+    "name": "Miyeokguk 16",
+    "type": "korean",
+    "ingredients": "Noodles, Rice, Gochujang, Green Onion",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Miyeokguk+16"
+  },
+  {
+    "id": 17,
+    "name": "Ojingeo Sundae 17",
+    "type": "korean",
+    "ingredients": "Spinach, Kimchi, Carrot, Beef",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Ojingeo+Sundae+17"
+  },
+  {
+    "id": 18,
+    "name": "Gamjatang 18",
+    "type": "korean",
+    "ingredients": "Soy Sauce, Green Onion, Rice, Carrot",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Gamjatang+18"
+  },
+  {
+    "id": 19,
+    "name": "Buchimgae 19",
+    "type": "korean",
+    "ingredients": "Gochujang, Carrot, Garlic, Mushroom",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Buchimgae+19"
+  },
+  {
+    "id": 20,
+    "name": "Naengmyeon 20",
+    "type": "korean",
+    "ingredients": "Carrot, Soy Sauce, Gochujang, Egg",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Naengmyeon+20"
+  },
+  {
+    "id": 21,
+    "name": "Galbi 21",
+    "type": "korean",
+    "ingredients": "Sesame Oil, Gochujang, Rice, Beef",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Galbi+21"
+  },
+  {
+    "id": 22,
+    "name": "Japchae 22",
+    "type": "korean",
+    "ingredients": "Gochujang, Beef, Tofu, Chicken",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Japchae+22"
+  },
+  {
+    "id": 23,
+    "name": "Hotteok 23",
+    "type": "korean",
+    "ingredients": "Soy Sauce, Kimchi, Green Onion, Beef",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Hotteok+23"
+  },
+  {
+    "id": 24,
+    "name": "Cheonggukjang 24",
+    "type": "korean",
+    "ingredients": "Gochujang, Carrot, Beef, Sesame Oil",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Cheonggukjang+24"
+  },
+  {
+    "id": 25,
+    "name": "Kongguksu 25",
+    "type": "korean",
+    "ingredients": "Egg, Soy Sauce, Tofu, Mushroom",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Kongguksu+25"
+  },
+  {
+    "id": 26,
+    "name": "Jokbal 26",
+    "type": "korean",
+    "ingredients": "Chicken, Green Onion, Kimchi, Beef",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Jokbal+26"
+  },
+  {
+    "id": 27,
+    "name": "Miyeokguk 27",
+    "type": "korean",
+    "ingredients": "Spinach, Kimchi, Soy Sauce, Garlic",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Miyeokguk+27"
+  },
+  {
+    "id": 28,
+    "name": "Hotteok 28",
+    "type": "korean",
+    "ingredients": "Sesame Oil, Pork, Kimchi, Carrot",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Hotteok+28"
+  },
+  {
+    "id": 29,
+    "name": "Maeuntang 29",
+    "type": "korean",
+    "ingredients": "Sesame Oil, Garlic, Beef, Pork",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Maeuntang+29"
+  },
+  {
+    "id": 30,
+    "name": "Bibimbap 30",
+    "type": "korean",
+    "ingredients": "Tofu, Kimchi, Spinach, Beef",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Bibimbap+30"
+  },
+  {
+    "id": 31,
+    "name": "Kongguksu 31",
+    "type": "korean",
+    "ingredients": "Chicken, Rice, Sesame Oil, Green Onion",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Kongguksu+31"
+  },
+  {
+    "id": 32,
+    "name": "Kimchi Bokkeumbap 32",
+    "type": "korean",
+    "ingredients": "Soy Sauce, Gochujang, Carrot, Sesame Oil",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Kimchi+Bokkeumbap+32"
+  },
+  {
+    "id": 33,
+    "name": "Doenjang Jjigae 33",
+    "type": "korean",
+    "ingredients": "Kimchi, Green Onion, Soy Sauce, Spinach",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Doenjang+Jjigae+33"
+  },
+  {
+    "id": 34,
+    "name": "Dakgangjeong 34",
+    "type": "korean",
+    "ingredients": "Beef, Gochujang, Garlic, Sesame Oil",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Dakgangjeong+34"
+  },
+  {
+    "id": 35,
+    "name": "Cheonggukjang 35",
+    "type": "korean",
+    "ingredients": "Mushroom, Egg, Sesame Oil, Beef",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Cheonggukjang+35"
+  },
+  {
+    "id": 36,
+    "name": "Haejangguk 36",
+    "type": "korean",
+    "ingredients": "Egg, Kimchi, Beef, Soy Sauce",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Haejangguk+36"
+  },
+  {
+    "id": 37,
+    "name": "Haejangguk 37",
+    "type": "korean",
+    "ingredients": "Gochujang, Rice, Kimchi, Carrot",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Haejangguk+37"
+  },
+  {
+    "id": 38,
+    "name": "Buchimgae 38",
+    "type": "korean",
+    "ingredients": "Garlic, Kimchi, Soy Sauce, Green Onion",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Buchimgae+38"
+  },
+  {
+    "id": 39,
+    "name": "Tteokbokki 39",
+    "type": "korean",
+    "ingredients": "Green Onion, Rice, Gochujang, Chicken",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Tteokbokki+39"
+  },
+  {
+    "id": 40,
+    "name": "Korean Corn Dog 40",
+    "type": "korean",
+    "ingredients": "Chicken, Green Onion, Sesame Oil, Spinach",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Korean+Corn+Dog+40"
+  },
+  {
+    "id": 41,
+    "name": "Suyuk 41",
+    "type": "korean",
+    "ingredients": "Garlic, Green Onion, Spinach, Soy Sauce",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Suyuk+41"
+  },
+  {
+    "id": 42,
+    "name": "Kimchi Jeon 42",
+    "type": "korean",
+    "ingredients": "Kimchi, Spinach, Green Onion, Pork",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Kimchi+Jeon+42"
+  },
+  {
+    "id": 43,
+    "name": "Buchimgae 43",
+    "type": "korean",
+    "ingredients": "Beef, Noodles, Tofu, Chicken",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Buchimgae+43"
+  },
+  {
+    "id": 44,
+    "name": "Korean Fried Chicken 44",
+    "type": "korean",
+    "ingredients": "Noodles, Tofu, Kimchi, Mushroom",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Korean+Fried+Chicken+44"
+  },
+  {
+    "id": 45,
+    "name": "Yangnyeom Chicken 45",
+    "type": "korean",
+    "ingredients": "Green Onion, Gochujang, Chicken, Carrot",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Yangnyeom+Chicken+45"
+  },
+  {
+    "id": 46,
+    "name": "Jokbal 46",
+    "type": "korean",
+    "ingredients": "Pork, Green Onion, Tofu, Egg",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Jokbal+46"
+  },
+  {
+    "id": 47,
+    "name": "Gamjatang 47",
+    "type": "korean",
+    "ingredients": "Sesame Oil, Kimchi, Gochujang, Pork",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Gamjatang+47"
+  },
+  {
+    "id": 48,
+    "name": "Kimchi Jjigae 48",
+    "type": "korean",
+    "ingredients": "Mushroom, Spinach, Kimchi, Noodles",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Kimchi+Jjigae+48"
+  },
+  {
+    "id": 49,
+    "name": "Maeuntang 49",
+    "type": "korean",
+    "ingredients": "Beef, Chicken, Kimchi, Rice",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Maeuntang+49"
+  },
+  {
+    "id": 50,
+    "name": "Suyuk 50",
+    "type": "korean",
+    "ingredients": "Chicken, Mushroom, Sesame Oil, Carrot",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Suyuk+50"
+  },
+  {
+    "id": 51,
+    "name": "Gochujang Chicken 51",
+    "type": "korean",
+    "ingredients": "Kimchi, Green Onion, Pork, Carrot",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Gochujang+Chicken+51"
+  },
+  {
+    "id": 52,
+    "name": "Dolsot Bibimbap 52",
+    "type": "korean",
+    "ingredients": "Egg, Chicken, Garlic, Carrot",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Dolsot+Bibimbap+52"
+  },
+  {
+    "id": 53,
+    "name": "Gimbap 53",
+    "type": "korean",
+    "ingredients": "Egg, Pork, Gochujang, Mushroom",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Gimbap+53"
+  },
+  {
+    "id": 54,
+    "name": "Gopchang 54",
+    "type": "korean",
+    "ingredients": "Rice, Carrot, Green Onion, Pork",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Gopchang+54"
+  },
+  {
+    "id": 55,
+    "name": "Ojingeo Sundae 55",
+    "type": "korean",
+    "ingredients": "Carrot, Soy Sauce, Green Onion, Mushroom",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Ojingeo+Sundae+55"
+  },
+  {
+    "id": 56,
+    "name": "Bibimbap 56",
+    "type": "korean",
+    "ingredients": "Garlic, Spinach, Chicken, Beef",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Bibimbap+56"
+  },
+  {
+    "id": 57,
+    "name": "Naengmyeon 57",
+    "type": "korean",
+    "ingredients": "Carrot, Green Onion, Chicken, Kimchi",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Naengmyeon+57"
+  },
+  {
+    "id": 58,
+    "name": "Gamjatang 58",
+    "type": "korean",
+    "ingredients": "Tofu, Chicken, Green Onion, Carrot",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Gamjatang+58"
+  },
+  {
+    "id": 59,
+    "name": "Korean Fried Chicken 59",
+    "type": "korean",
+    "ingredients": "Spinach, Chicken, Carrot, Sesame Oil",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Korean+Fried+Chicken+59"
+  },
+  {
+    "id": 60,
+    "name": "Tangsuyuk 60",
+    "type": "korean",
+    "ingredients": "Rice, Beef, Gochujang, Carrot",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Tangsuyuk+60"
+  },
+  {
+    "id": 61,
+    "name": "Hotteok 61",
+    "type": "korean",
+    "ingredients": "Pork, Spinach, Beef, Soy Sauce",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Hotteok+61"
+  },
+  {
+    "id": 62,
+    "name": "Bulgogi 62",
+    "type": "korean",
+    "ingredients": "Beef, Egg, Garlic, Carrot",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Bulgogi+62"
+  },
+  {
+    "id": 63,
+    "name": "Bulgogi 63",
+    "type": "korean",
+    "ingredients": "Beef, Soy Sauce, Garlic, Rice",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Bulgogi+63"
+  },
+  {
+    "id": 64,
+    "name": "Yukgaejang 64",
+    "type": "korean",
+    "ingredients": "Gochujang, Egg, Green Onion, Rice",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Yukgaejang+64"
+  },
+  {
+    "id": 65,
+    "name": "Ojingeo Bokkeum 65",
+    "type": "korean",
+    "ingredients": "Tofu, Spinach, Pork, Kimchi",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Ojingeo+Bokkeum+65"
+  },
+  {
+    "id": 66,
+    "name": "Bulgogi 66",
+    "type": "korean",
+    "ingredients": "Noodles, Garlic, Pork, Soy Sauce",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Bulgogi+66"
+  },
+  {
+    "id": 67,
+    "name": "Buchimgae 67",
+    "type": "korean",
+    "ingredients": "Gochujang, Kimchi, Green Onion, Mushroom",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Buchimgae+67"
+  },
+  {
+    "id": 68,
+    "name": "Mandu 68",
+    "type": "korean",
+    "ingredients": "Green Onion, Chicken, Spinach, Soy Sauce",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Mandu+68"
+  },
+  {
+    "id": 69,
+    "name": "Korean Braised Short Ribs 69",
+    "type": "korean",
+    "ingredients": "Egg, Carrot, Green Onion, Beef",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Korean+Braised+Short+Ribs+69"
+  },
+  {
+    "id": 70,
+    "name": "Hoddeok 70",
+    "type": "korean",
+    "ingredients": "Spinach, Gochujang, Tofu, Rice",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Hoddeok+70"
+  },
+  {
+    "id": 71,
+    "name": "Galbitang 71",
+    "type": "korean",
+    "ingredients": "Soy Sauce, Noodles, Rice, Chicken",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Galbitang+71"
+  },
+  {
+    "id": 72,
+    "name": "Jajangmyeon 72",
+    "type": "korean",
+    "ingredients": "Noodles, Spinach, Sesame Oil, Beef",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Jajangmyeon+72"
+  },
+  {
+    "id": 73,
+    "name": "Gopchang 73",
+    "type": "korean",
+    "ingredients": "Green Onion, Mushroom, Kimchi, Rice",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Gopchang+73"
+  },
+  {
+    "id": 74,
+    "name": "Yangnyeom Chicken 74",
+    "type": "korean",
+    "ingredients": "Mushroom, Chicken, Carrot, Sesame Oil",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Yangnyeom+Chicken+74"
+  },
+  {
+    "id": 75,
+    "name": "Samgyeopsal 75",
+    "type": "korean",
+    "ingredients": "Mushroom, Tofu, Rice, Egg",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Samgyeopsal+75"
+  },
+  {
+    "id": 76,
+    "name": "Bossam 76",
+    "type": "korean",
+    "ingredients": "Beef, Soy Sauce, Tofu, Carrot",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Bossam+76"
+  },
+  {
+    "id": 77,
+    "name": "Kimchi Jjigae 77",
+    "type": "korean",
+    "ingredients": "Kimchi, Gochujang, Egg, Noodles",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Kimchi+Jjigae+77"
+  },
+  {
+    "id": 78,
+    "name": "Doenjang Jjigae 78",
+    "type": "korean",
+    "ingredients": "Gochujang, Beef, Rice, Tofu",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Doenjang+Jjigae+78"
+  },
+  {
+    "id": 79,
+    "name": "Dakjuk 79",
+    "type": "korean",
+    "ingredients": "Noodles, Carrot, Green Onion, Egg",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Dakjuk+79"
+  },
+  {
+    "id": 80,
+    "name": "Korean Corn Dog 80",
+    "type": "korean",
+    "ingredients": "Chicken, Spinach, Rice, Noodles",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Korean+Corn+Dog+80"
+  },
+  {
+    "id": 81,
+    "name": "Bossam 81",
+    "type": "korean",
+    "ingredients": "Spinach, Rice, Green Onion, Carrot",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Bossam+81"
+  },
+  {
+    "id": 82,
+    "name": "Galbitang 82",
+    "type": "korean",
+    "ingredients": "Kimchi, Garlic, Spinach, Sesame Oil",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Galbitang+82"
+  },
+  {
+    "id": 83,
+    "name": "Yukgaejang 83",
+    "type": "korean",
+    "ingredients": "Carrot, Tofu, Beef, Garlic",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Yukgaejang+83"
+  },
+  {
+    "id": 84,
+    "name": "Gamjatang 84",
+    "type": "korean",
+    "ingredients": "Sesame Oil, Noodles, Chicken, Kimchi",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Gamjatang+84"
+  },
+  {
+    "id": 85,
+    "name": "Mandu 85",
+    "type": "korean",
+    "ingredients": "Kimchi, Beef, Mushroom, Garlic",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Mandu+85"
+  },
+  {
+    "id": 86,
+    "name": "Tangsuyuk 86",
+    "type": "korean",
+    "ingredients": "Rice, Egg, Pork, Green Onion",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Tangsuyuk+86"
+  },
+  {
+    "id": 87,
+    "name": "Godeungeo Gui 87",
+    "type": "korean",
+    "ingredients": "Kimchi, Rice, Gochujang, Spinach",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Godeungeo+Gui+87"
+  },
+  {
+    "id": 88,
+    "name": "Maeuntang 88",
+    "type": "korean",
+    "ingredients": "Rice, Mushroom, Chicken, Garlic",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Maeuntang+88"
+  },
+  {
+    "id": 89,
+    "name": "Hoddeok 89",
+    "type": "korean",
+    "ingredients": "Egg, Soy Sauce, Spinach, Chicken",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Hoddeok+89"
+  },
+  {
+    "id": 90,
+    "name": "Gochujang Chicken 90",
+    "type": "korean",
+    "ingredients": "Spinach, Beef, Kimchi, Noodles",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Gochujang+Chicken+90"
+  },
+  {
+    "id": 91,
+    "name": "Hoddeok 91",
+    "type": "korean",
+    "ingredients": "Mushroom, Garlic, Chicken, Spinach",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Hoddeok+91"
+  },
+  {
+    "id": 92,
+    "name": "Gochujang Chicken 92",
+    "type": "korean",
+    "ingredients": "Egg, Pork, Garlic, Noodles",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Gochujang+Chicken+92"
+  },
+  {
+    "id": 93,
+    "name": "Tteokbokki 93",
+    "type": "korean",
+    "ingredients": "Rice, Mushroom, Soy Sauce, Green Onion",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Tteokbokki+93"
+  },
+  {
+    "id": 94,
+    "name": "Dakjuk 94",
+    "type": "korean",
+    "ingredients": "Egg, Green Onion, Noodles, Beef",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Dakjuk+94"
+  },
+  {
+    "id": 95,
+    "name": "Haemul Pajeon 95",
+    "type": "korean",
+    "ingredients": "Gochujang, Garlic, Noodles, Green Onion",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Haemul+Pajeon+95"
+  },
+  {
+    "id": 96,
+    "name": "Makgeolli Pancake 96",
+    "type": "korean",
+    "ingredients": "Garlic, Pork, Gochujang, Green Onion",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Makgeolli+Pancake+96"
+  },
+  {
+    "id": 97,
+    "name": "Kimchi Jjigae 97",
+    "type": "korean",
+    "ingredients": "Mushroom, Kimchi, Sesame Oil, Noodles",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Kimchi+Jjigae+97"
+  },
+  {
+    "id": 98,
+    "name": "Ojingeo Bokkeum 98",
+    "type": "korean",
+    "ingredients": "Rice, Beef, Carrot, Sesame Oil",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Ojingeo+Bokkeum+98"
+  },
+  {
+    "id": 99,
+    "name": "Samgyeopsal 99",
+    "type": "korean",
+    "ingredients": "Egg, Mushroom, Pork, Soy Sauce",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Samgyeopsal+99"
+  },
+  {
+    "id": 100,
+    "name": "Jokbal 100",
+    "type": "korean",
+    "ingredients": "Mushroom, Garlic, Pork, Noodles",
+    "cuisine": "Korean",
+    "instructions": "Prepare the ingredients, stir-fry with seasoning, simmer until cooked. Serve hot.",
+    "image": "https://dummyimage.com/300x200/cc6699/ffffff&text=Jokbal+100"
+  }
+],
+"italian": [],
+"chinese": [],
+"desserts": [],
+"indian": [],
+"thai": [],
+"snacks": [],
+"healthy_bites": [],
+"breakfast": [],
+"wraps_and_rolls": [],
+"beverages": [],
+"street_food": [],
+"seasonal_picks": []
 }

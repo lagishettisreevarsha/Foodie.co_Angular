@@ -1,4 +1,7 @@
-<h1 class="text-success text-center mt-3">🌿 Vegetarian Dishes</h1>
+<h1 class="text-success text-center mt-3">
+{{getEmoji(type)}} {{displayType}} Dishes
+</h1>
+
 
 <section>
   <article *ngFor="let dish of dishes" (click)="goToDish(dish.name)">
@@ -6,4 +9,5 @@
     <h3>{{ dish.name }}</h3>
   </article>
 </section>
+
 
